@@ -1,0 +1,98 @@
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-align: center;
+    background: #FFFDC7;
+}
+
+header {
+    background-color: #3C99FF; 
+    text-align: center;
+    padding: 5rem;
+    color: blue;
+    margin: 2px;
+}
+
+header>img {
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+    background: #2FFFFE;
+    padding: 3rem;
+}
+
+.headertext {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.subheading {
+    font-size: 1rem;
+    padding: 4px;
+
+}
+
+.currentconditions img {
+    width: 100px;
+    height: auto;
+}
+
+.currentconditions 
+{
+    display: inline-block;
+    margin: 2rem 0 2rem 6rem;
+    padding: 3rem;
+    vertical-align: middle;
+    color:#2FFFFE;
+    background-color: #2FFFFE;
+    border: 1pt;
+    font-size: 1.1rem;
+}
+
+p {
+    background-color: #3C99FF;
+    display: inline-block;
+}
+
+main {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #FF9485;
+    font-size: 20px;
+    border: 50px solid #FF9485;
+    margin: 50px;
+}
+
+nav {
+    text-align: center;
+    vertical-align: center;
+    display: inline-block;
+    background: #FF9485;
+
+}
+
+h2{
+    display: inline-block;
+    background-color: rgb(57, 136, 221);
+    
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+    background-color: #2FFFFE;
+    border: solid yellow;
+}
+
+h4 {
+    text-align: center;
+    display: inline-block;
+    background-color: #2FFFFE;
+}
+
+footer{
+    font-size: 25px;
+    background: #2FFFFE;
+    display: inline-block;
+
+}
