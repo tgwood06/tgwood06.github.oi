@@ -1,117 +1,178 @@
 
 /*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
-ul {
-    list-style-type: none;
+
+
+body {
+   margin: 0;
+   background: lightyellow;
+   font-family: 'Merriweather', serif;
+   font-size: 20px;
+   
+}
+
+header {
+    max-width: 100%;
+    height: auto;
+    background-color: #6F6F50;
+    text-align: center;
+    padding: 0;
+    color: #C8C81B;
+    margin: 2px;
+}
+
+header>img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    height: auto;
+    background-color: #8C8C4A;
+    padding: 5px;
+}
+
+.headertext {
+    display: inline-block;
+    width: auto;
+    padding: 10px;
     margin: 0;
+}
+
+.subheading {
+    max-width: 100%;
+    height: auto;
+    padding: 4px;
+
+}
+ 
+
+.currentconditions {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    padding: 5px;
+}
+.currentconditionspic {
+    max-width: 100%;
+    height: auto;
+    float: right;
+    height: auto;
+    background-color: #8C8C4A;
+    padding: 5px;
+    
+}
+ 
+ 
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  ul {
+    list-style-type: none;
     padding: 0;
 }
 
 li {
     display: inline;
 }
-.horizontalnav { 
-background-color:rgb(190, 181, 47);
-}
-body {
-    font-family: 'Merriweather', serif;
-    font-size: 20px;
-    text-align: center;
-    background: #FFFDC7;
-}
 
-header {
-    background-color: #6F6F50;
-    text-align: center;
-    padding: 5rem;
-    color: #C8C81B;
-    margin: 2px;
-}
-
-header>img {
-    width: 200px;
-    height: auto;
-    vertical-align: middle;
-    background: #8C8C4A;
-    padding: 3rem;
-}
-
-.headertext {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 10px;
-}
-
-.subheading {
-    font-size: 1rem;
-    padding: 4px;
-
-}
-
-.currentconditions img {
-    width: 100px;
-    height: auto;
-}
-
-.currentconditions 
-{
-    display: inline-block;
-    margin: 2rem 0 2rem 6rem;
-    padding: 3rem;
-    vertical-align: middle;
-    color: #E5E500;
-    background-color: #8C8C4A;
-    border: 1pt;
-    font-size: 1.1rem;
-}
-
-p {
-    background-color: #8C8C4A;
-    display: inline-block;
-}
-
+  .hero-text {
+      background-color: #8c8c4a;
+   width: 500px;
+   height: auto;
+   border: 10px solid black; 
+    top: -20px;
+    left: 20px;
+    text-align: left;
+    position: relative;
+  }
+ .label .value{
+     position: relative;
+ }
+ 
 main {
     text-align: center;
     vertical-align: middle;
-    background-color: #FF9485;
+    background-color: #C8C81B;
     font-size: 20px;
-    border: 50px solid #FF9485;
+    border: 50px solid #8C8C4A;
     margin: 50px;
 }
 
 nav {
-    text-align: center;
-    vertical-align: center;
+    max-width: 100%;
+    height: auto;
     display: inline-block;
-    background: #FF9485;
+    background: #C8C81B;
+   padding: 25px;
 
 }
 
-h2{
-    display: inline-block;
-    background-color: rgb(57, 136, 221);
+
+.Town {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #C8C81B;
+}
+.forecast {
+    max-width: 100%;
+    height: auto;
+    border: 25px solid #6F6F50;
+    padding: 10px;
+    margin: auto;
+    background-color: #8c8c4a;
+    background: 100%;
+    text-align: center;
+
+}
+
+
+.weatherstory {
+    max-width: 100%;
+    height: auto;
+    border: 5px;
+    border-color: #8C8C4A;
+    padding: 0;
+    margin: auto;
+    background-color: #C8C81B;
+
+}
+.contactinfo {
+    
+    text-align: center;
+    margin: 2em;
+    padding: 1em;
+    border-width: 1em;
+    background: 100%;
+    background-color: #8c8c4a;
     
 }
-h3 {
-    text-align: center;
+
+.map{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -50px;
+    left: 5px;
+    
+}
+
+.people {
+    width: 5px;
+    border: 5px;
+   position: relative;
+   top: -150px;
+   left: 600px;
+}
+footer {
+    padding: 10px;
+    margin: 3px;
+    max-width: 100%;
+    height: auto;
     font-size: 20px;
-    background-color: #2FFFFE;
-    border: solid yellow;
-}
-
-h4 {
+    background-color: #8c8c4a;
     text-align: center;
-    display: inline-block;
-    background-color: #2FFFFE;
-}
-
-footer{
-    font-size: 25px;
-    background: #2FFFFE;
-    display: inline-block;
-
-}
-section.forecast{
-    float: center;
-    width: 50%;
-    background-color: #6F6F50;
+   
 }
