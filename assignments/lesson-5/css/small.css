@@ -3,3 +3,174 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
+
+
+body {
+    margin: 0;
+    background: lightyellow;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    
+ }
+ 
+ header {
+     max-width: 100%;
+     height: auto;
+     background-color: #6F6F50;
+     text-align: center;
+     padding: 0;
+     color: #C8C81B;
+     margin: 2px;
+ }
+ 
+ header>img {
+     max-width: 100%;
+     height: auto;
+     float: left;
+     height: auto;
+     background-color: #8C8C4A;
+     padding: 5px;
+ }
+ 
+ .headertext {
+     display: inline-block;
+     width: auto;
+     padding: 10px;
+     margin: 0;
+ }
+ 
+ .subheading {
+     max-width: 100%;
+     height: auto;
+     padding: 4px;
+ 
+ }
+  
+ 
+ .currentconditions {
+     max-width: 100%;
+     height: auto;
+     float: right;
+     padding: 5px;
+ }
+ .currentconditionspic {
+     max-width: 100%;
+     height: auto;
+     float: right;
+     height: auto;
+     background-color: #8C8C4A;
+     padding: 5px;
+     
+ }
+  
+  
+ .hero-image {
+     max-width: 100%;
+     height: auto;
+     background-position: center;
+     background-size: cover;
+     position: relative;
+   }
+   ul {
+     list-style-type: none;
+     padding: 0;
+ }
+ 
+ li {
+     display: inline;
+ }
+ 
+   .hero-text {
+       background-color: #8c8c4a;
+    width: 500px;
+    height: auto;
+    border: 10px solid black; 
+     top: -20px;
+     left: 20px;
+     text-align: left;
+     position: relative;
+   }
+  .label .value{
+      position: relative;
+  }
+  
+ main {
+     text-align: center;
+     vertical-align: middle;
+     background-color: #C8C81B;
+     font-size: 20px;
+     border: 50px solid #8C8C4A;
+     margin: 50px;
+ }
+ 
+ nav {
+     max-width: 100%;
+     height: auto;
+     display: inline-block;
+     background: #C8C81B;
+    padding: 25px;
+ 
+ }
+ 
+ 
+ .Town {
+     max-width: 100%;
+     height: auto;
+     margin: auto;
+     background-color: #C8C81B;
+ }
+ .forecast {
+     display: none;
+ }
+ 
+ 
+ .weatherstory {
+     max-width: 100%;
+     height: auto;
+     border: 5px;
+     border-color: #8C8C4A;
+     padding: 0;
+     margin: auto;
+     background-color: #C8C81B;
+ 
+ }
+ .contactinfo {
+     
+     text-align: center;
+     margin: 2em;
+     padding: 1em;
+     border-width: 1em;
+     background: 100%;
+     background-color: #8c8c4a;
+     
+ }
+ 
+ .map{
+     width: 20px;
+     height: 20px;
+     position: relative;
+     top: -50px;
+     left: 5px;
+     
+ }
+ 
+ .people {
+     width: 5px;
+     border: 5px;
+    position: relative;
+    top: -150px;
+    left: 600px;
+ }
+ footer {
+     padding: 10px;
+     margin: 3px;
+     max-width: 100%;
+     height: auto;
+     font-size: 20px;
+     background-color: #8c8c4a;
+     text-align: center;
+    
+ }
+ 
