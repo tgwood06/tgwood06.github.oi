@@ -6,10 +6,11 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
 
+/*do not use this media query with the small screen, use it for the others. Leave in as reminder.
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
-    }
+    }*/
 body {
     margin: 0;
     background: lightyellow;
@@ -70,7 +71,7 @@ body {
   
   
  .hero-image {
-     max-width: 100%;
+     width: 100%;
      height: auto;
      background-position: center;
      background-size: cover;
@@ -128,6 +129,9 @@ body {
      display: none;
  }
  
+ table.table {
+     display: none;
+ }
  
  .weatherstory {
      max-width: 100%;

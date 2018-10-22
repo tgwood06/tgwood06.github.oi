@@ -1,7 +1,9 @@
 
 /*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
 
-
+@media only screen and (min-width: 1041px){
+    
+}
 body {
    margin: 0;
    background: lightyellow;
@@ -64,7 +66,7 @@ header>img {
  
  
 .hero-image {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     background-position: center;
     background-size: cover;

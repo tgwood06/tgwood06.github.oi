@@ -1,14 +1,12 @@
 
 /*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
 
-@media screen and (max-width: 992px) {
-    .column {
-        width: 50%;
-    }
-    @media screen and (max-width: 600px) {
-        .column {
-            width: 100%;
+@media only screen and (min-width: 550px) {
+   
+    table.table {
+            display: block;
         }
+    
 body {
     margin: 0;
     background: lightyellow;
