@@ -68,7 +68,15 @@ body {
      padding: 5px;
      
  }
-  
+}
+ 
+.franklinphoto img{
+    width: 100%;
+   /* height: auto;
+    background-position: center;
+    background-size: cover;
+    position: relative;*/
+  }
   
  .hero-image {
      width: 100%;

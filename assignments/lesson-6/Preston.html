@@ -49,7 +49,7 @@
 
     </header>
     <!-- NAVIGATION HERE -->
-    <nav>
+    <nav class="clearfix">
         <ul class="horizontalnav">
             <li>
                 <a href="#" onclick="">Menu</a>
@@ -77,15 +77,17 @@
     <section class="Town">
         <h2>The Town of Preston</h2>
     </section>
-
-    <div class="hero-image">
-            <picture>
-                    <source media="(min-width: 650px)" srcset="images/franklin-original6small">
-                    <source media="(min-width: 465px)" srcset="imgages/franlin-original12large">
+    <figure class="franklinphoto">
+        <img src="images/franklin-original12.jpg" sizes="100vw" alt="Picture of Franklin" srcset="images/franklin-original6small.jpg 200w,  srcset=images/franklin-original6small.jpg 500w,  images/franklin-original6small.jpg 800w, images/franklin-original12large.jpg 1200w">
+    </figure>
+    <!--<div class="hero-image">
+            <figure class="franklinphoto">
+                    <source media="(min-width: 465px)" srcset="images/franklin-original6small.jpg">
+                    <source media="(min-width: 650px)" srcset="imgages/franlin-original12large.jpg">
                     <img src="images/franklin-original12large.jpg" alt="field of trees" style="width:auto;">
-                  </picture> 
-        <!-- <img src="images/town06.jpg" alt="snowy town" class="snowvillagepic">-->
-    </div>
+                    </figure> 
+ <img src="images/town06.jpg" alt="snowy town" class="snowvillagepic">
+    </div>-->
     <div class="hero-text">
         <h2>Weather Summary</h2>
         <p class="label">Currently:</p>
@@ -99,33 +101,34 @@
         <p class="label">Wind Speed:</p>
         <p class="value">5 mph</p>
     </div>
-
-    <section class="forecast">
-        <h3>High Temperature Forecast</h3>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>Day</th>
-                    <th>Wed</th>
-                    <th>Thu</th>
-                    <th>Fri</th>
-                    <th>Sat</th>
-                    <th>Sun</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th>Forecast</th>
-                    <td>89&deg;F</td>
-                    <td>87&deg;F</td>
-                    <td>78&deg;F</td>
-                    <td>75&deg;F</td>
-                    <td>72&deg;F</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
+    <!--main-->
     <main>
+        <section class="forecast">
+            <h3>High Temperature Forecast</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Forecast</th>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
         <article class="weatherstory">
             <h4>Slope Time</h4>
             <p><small>By Tricia Greenwood</small></p>
@@ -135,21 +138,24 @@
                 out the skis and snowboards and get to waxing!</p>
 
         </article>
-    </main>
-    <article class="contactinfo">
-        <h6>Weather Play Site<br> 1000 N. Main<br>Preston, Id<br>999-999-9999</h6>
-        <div class="map">
-            <img src="images/map6.jpg" alt="map" max-width="200">
-        </div>
-        <div class="people">
-            <img src="images/people6.jpg" alt="people" max-width="200">
-        </div>
-    </article>
 
+        <article class="contactinfo">
+            <h6>Weather Play Site<br> 1000 N. Main<br>Preston, Id<br>999-999-9999</h6>
+            <div class="map">
+                <img src="images/map6.jpg" alt="map">
+            </div>
+            <div class="people">
+                <img src="images/people6.jpg" alt="people">
+            </div>
+        </article>
+    </main>
+    <!--Nav-->
 
     <footer>
         <p><small>&copy; 2018 CIT230 | Preston Weather Page | Tricia Greenwood week 5</small> </p>
+        <span id="date">Thursday, 25 October 2020</span>
     </footer>
+
 
 </body>
 
