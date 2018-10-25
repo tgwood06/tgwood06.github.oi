@@ -12,3 +12,4 @@ function date() {
     var n = weekday[d.getDay()];
     document.getElementById("demo").innerHTML = n;
 }
+/* var date = new Date(toDateString)???*/
