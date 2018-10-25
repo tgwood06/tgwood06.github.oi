@@ -1,16 +1,12 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
-
-/*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 /*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
 
-/*do not use this media query with the small screen, use it for the others. Leave in as reminder.
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }*/
+@media only screen and (min-width: 550px) {
+   
+    table.table {
+            display: block;
+        }
+    
 body {
     margin: 0;
     background: lightyellow;
@@ -71,7 +67,7 @@ body {
   
   
  .hero-image {
-     width: 100%;
+     max-width: 100%;
      height: auto;
      background-position: center;
      background-size: cover;
@@ -126,12 +122,18 @@ body {
      background-color: #C8C81B;
  }
  .forecast {
-     display: none;
+     display: block;
+     max-width: 100%;
+     height: auto;
+     border: 25px solid #6F6F50;
+     padding: 10px;
+     margin: auto;
+     background-color: #8c8c4a;
+     background: 100%;
+     text-align: center;
+ 
  }
  
- table.table {
-     display: none;
- }
  
  .weatherstory {
      max-width: 100%;
@@ -155,8 +157,8 @@ body {
  }
  
  .map{
-     width: 25%;
-     height: auto;
+     width: 20px;
+     height: 20px;
      position: relative;
      top: -50px;
      left: 5px;

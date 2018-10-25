@@ -157,14 +157,13 @@ nav {
 }
 
 .map{
-    width: 5px;
-    height: auto;
+    width: 20px;
+    height: 20px;
     position: relative;
     top: -100px;
     left: 5px;
     
 }
-
 
 .people {
     width: 5px;
