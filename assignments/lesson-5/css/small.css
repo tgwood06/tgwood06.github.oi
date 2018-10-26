@@ -7,10 +7,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
 
 /*do not use this media query with the small screen, use it for the others. Leave in as reminder.
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)*/
     .column {
         width: 100%;
-    }*/
+    }
 body {
     margin: 0;
     background: lightyellow;
@@ -68,7 +68,7 @@ body {
      padding: 5px;
      
  }
-}
+
  
 .franklinphoto img{
     width: 100%;
@@ -116,26 +116,51 @@ body {
      border: 50px solid #8C8C4A;
      margin: 50px;
  }
- nav button{
-     margin: .2rem 2%;
-     background-color: transparent;
-     border: none;
- }
- nav {
+
+/* nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: antiquewhite;
+}*/
+nav {
+   max-width: 100%;
+   height: auto;
+   display: inline-block;
+   background: #C8C81B;
+  padding: 25px;
+
+}
+/*nav ul{
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+
+}
+
+nav ul li a {
+   display: block;
+   padding: .8rem 2%;
+   text-decoration: none;
+   color: #8C8C4A;
+   border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:hover {
+   background-color: rgba(0,0,0,0.4);
+}*/
+  
+ /*nav {
     background: #C8C81B;
     font-family: sans-serif;
     /* max-width: 100%;
      height: auto;
      display: inline-block;
-    padding: 25px;*/
+    padding: 25px;
  
- }
- nav ul 
- {
-     list-style-type: none;
-     padding: 0;
-     margin: 0;
- }
+ }*/
+ 
  
  .Town {
      max-width: 100%;
