@@ -1,0 +1,190 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/*BODY*/
+body {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 20px;
+        margin: 0;
+        background: lightyellow;
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        text-align: center;
+        background-color: antiquewhite;
+        
+     }
+
+
+main h2 {
+    background-color: #8c8c4a;
+}
+
+/*HEADER*/
+header{
+background-color: #6F6F50;
+text-align: center;
+padding: 1rem;
+color: #C8C81B;
+/*display: inline-block;*/
+
+}
+
+header > img {
+width: 150px;
+height: auto;
+vertical-align: middle;
+}
+
+.headertext {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headertext h1 {
+    font-size: 4rem;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    color: #C8C81B;
+    font-style: italic;
+}
+
+.currentconditions{
+    display: inline-block;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.5rem;
+    vertical-align: middle;
+    color: whitesmoke;
+    background-color: #C8C81B;
+    border: 1pt solid rgba(0, 87, 25, );
+    font-size: 1.5rem;
+}
+
+.currentconditions > img{
+    width: 100px;
+    height: auto;
+
+}
+
+/*NAVIGATION*/
+
+    nav button{
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: whitesmoke;
+    }
+    nav {
+        background-color: #C8C81B;
+       max-width: 100%;
+       height: auto;
+       display: inline-block;
+      padding: 25px;
+    
+    }
+    nav ul{
+       list-style-type: none;
+       padding: 0;
+       margin: 0;
+    
+    }
+    
+    nav ul li a {
+       display: block;
+       padding: .8rem 2%;
+       text-decoration: none;
+       color: rgba(0,0,0,0.8);
+       border-top: 1px solid rgba(0,0,0,0.3);
+    }
+    
+    nav ul li.Prestonli a{
+        background-color: rgba(0,0,0,0.2); color: #fff;
+     }
+    nav ul li a:hover {
+       background-color: rgba(0,0,0,0.4);
+    }
+      
+    nav ul.hide {display: none;}
+
+     /*content*/
+
+    /*MAIN*/
+
+    /*TownImage*/
+
+   /* .TownImage{
+        
+
+    }
+.TownImage > img {
+
+}*/
+    .weathersummary {
+background-color: #8c8c4a;
+border: 3px solid black;
+
+    }
+
+   /* .weatherdetails {
+
+    }*/
+
+    /*section with table forecast*/
+
+    .forecast {
+        max-width: 100%;
+        height: auto;
+        border: 25px solid #6F6F50;
+        padding: 10px;
+        margin: auto;
+        background-color: #8c8c4a;
+        text-align: center;
+         }
+         
+
+    /*ARTICLE*/
+    .weatherstory {
+        max-width: 100%;
+        height: auto;
+        border: 5px solid  #8C8C4A;
+        padding: 5px;
+        margin: auto;
+        background-color: #C8C81B;
+    
+    }
+    /*Aside--Contact*/
+
+    .contactinfo {
+     
+        text-align: center;
+        margin: 2em;
+        padding: 1em;
+        border: 1em solid black;
+        background: 100%;
+        background-color: #8c8c4a;
+        
+    }
+
+/*footer*/
+
+footer {
+    padding: 10px;
+    margin: 3px;
+    border: 10px solid black;
+    max-width: 100%;
+    height: auto;
+    font-size: 20px;
+    background-color: #8c8c4a;
+    text-align: center;
+   
+}
+/*-----Clearfix: Force an element not to collapse-----*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
