@@ -7,10 +7,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
 
 /*do not use this media query with the small screen, use it for the others. Leave in as reminder.
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)*/
     .column {
         width: 100%;
-    }*/
+    }
 body {
     margin: 0;
     background: lightyellow;
@@ -68,7 +68,15 @@ body {
      padding: 5px;
      
  }
-  
+
+ 
+.franklinphoto img{
+    width: 100%;
+   /* height: auto;
+    background-position: center;
+    background-size: cover;
+    position: relative;*/
+  }
   
  .hero-image {
      width: 100%;
@@ -96,9 +104,9 @@ body {
      text-align: left;
      position: relative;
    }
-  .label .value{
+  /*.label .value{
       position: relative;
-  }
+  }*/
   
  main {
      text-align: center;
@@ -108,22 +116,21 @@ body {
      border: 50px solid #8C8C4A;
      margin: 50px;
  }
- 
- nav {
-     max-width: 100%;
-     height: auto;
-     display: inline-block;
-     background: #C8C81B;
-    padding: 25px;
- 
- }
- 
+
  nav button{
     margin: .2rem 2%;
     background-color: transparent;
     border: none;
     font-size: 1.6rem;
-    color: antiquewhite;
+    color: whitesmoke;
+}
+nav {
+    background-color: #C8C81B;
+   max-width: 100%;
+   height: auto;
+   display: inline-block;
+  padding: 25px;
+
 }
 nav ul{
    list-style-type: none;
@@ -136,13 +143,18 @@ nav ul li a {
    display: block;
    padding: .8rem 2%;
    text-decoration: none;
-   color: #8C8C4A;
+   color: rgba(0,0,0,0.8);
    border-top: 1px solid rgba(0,0,0,0.3);
 }
 
+nav ul li.Prestonli a{
+    background-color: rgba(0,0,0,0.2); color: #fff;
+ }
 nav ul li a:hover {
    background-color: rgba(0,0,0,0.4);
 }
+  
+nav ul.hide {display: none;}
   
  .Town {
      max-width: 100%;
@@ -180,8 +192,8 @@ nav ul li a:hover {
  }
  
  .map{
-     width: 20px;
-     height: 20px;
+     width: 25%;
+     height: auto;
      position: relative;
      top: -50px;
      left: 5px;
@@ -204,5 +216,11 @@ nav ul li a:hover {
      background-color: #8c8c4a;
      text-align: center;
     
+ }
+ /*-----Clearfix: Force an element not to collapse-----*/
+ .clearfix:after{
+     content: "";
+     display: table;
+     clear: both;
  }
  

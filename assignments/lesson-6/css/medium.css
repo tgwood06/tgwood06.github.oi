@@ -1,13 +1,14 @@
 
 /*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
+/* 35em is also 560px when basefront is 16px*/
+@media only screen and (min-width: 35em) {}
 
-@media only screen and (min-width: 550px) {
-   
+
     table.table {
             display: block;
         }
-    
-body {
+    /*end medium*/
+/*body {
     margin: 0;
     background: lightyellow;
     font-family: 'Merriweather', serif;
@@ -181,5 +182,4 @@ body {
      background-color: #8c8c4a;
      text-align: center;
     
- }
- 
+ }*/

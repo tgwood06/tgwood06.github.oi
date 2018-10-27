@@ -1,10 +1,39 @@
 
 /*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
+/* 64em is also 1028px when basefront is 16px */
+@media only screen and (min-width: 64rem){
+    
+}
 
-@media only screen and (min-width: 1041px)
+nav{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
+background: #bfd255; /* Old browsers */
+background: -moz-linear-gradient(top, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 50%,#72aa00 51%,#9ecb2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+}  
+nav button {display: none;}
 
-{}
-body {
+nav ul.hide{ display: block; }
+
+nav ul {margin-left: 2%;}
+
+nav ul li {
+   float: left;
+}
+
+nav ul li a {
+   border: none;
+   border-right: 1px solid rgba(0,0,0,0.3);
+   padding: .6rem 1rem;
+
+}
+/*end large*/
+
+
+
+/*body {
    margin: 0;
    background: lightyellow;
    font-family: 'Merriweather', serif;
@@ -63,16 +92,19 @@ header>img {
     padding: 5px;
     
 }
+ .franklinphoto {
+     width: 50%;
+
+ }
  
- 
-.hero-image {
+.franklinphoto img{
     width: 100%;
-    height: auto;
+   /* height: auto;
     background-position: center;
     background-size: cover;
     position: relative;
-  }
-  ul {
+  }*/
+  /*ul {
     list-style-type: none;
     padding: 0;
 }
@@ -103,7 +135,14 @@ main {
     border: 50px solid #8C8C4A;
     margin: 50px;
 }
-
+/*
+ nav button{
+     margin: .2rem 2%;
+     background-color: transparent;
+     border: none;
+     font-size: 1.6rem;
+     color: antiquewhite;
+ }
 nav {
     max-width: 100%;
     height: auto;
@@ -114,7 +153,19 @@ nav {
 }
 
 
-.Town {
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #8C8C4A;
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.4);
+}
+*/
+/*.Town {
     max-width: 100%;
     height: auto;
     margin: auto;
@@ -146,7 +197,7 @@ nav {
 
 }
 .contactinfo {
-    
+    display: flex;
     text-align: center;
     margin: 2em;
     padding: 2em;
@@ -157,13 +208,14 @@ nav {
 }
 
 .map{
-    width: 20px;
-    height: 20px;
+    width: 5px;
+    height: auto;
     position: relative;
     top: -100px;
     left: 5px;
     
 }
+
 
 .people {
     width: 5px;
@@ -172,6 +224,7 @@ nav {
    top: -150px;
    left: 900px;
 }
+
 footer {
     padding: 10px;
     margin: 3px;
@@ -181,4 +234,4 @@ footer {
     background-color: #8c8c4a;
     text-align: center;
    
-}
+}*/
