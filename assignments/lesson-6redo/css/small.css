@@ -59,7 +59,7 @@ vertical-align: middle;
     vertical-align: middle;
     color: whitesmoke;
     background-color: #C8C81B;
-    border: 1pt solid rgba(0, 87, 25, );
+    border: 1pt solid rgba(0, 87, 25,0.3);
     font-size: 1.5rem;
 }
 
