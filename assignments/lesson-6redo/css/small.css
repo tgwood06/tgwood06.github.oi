@@ -83,7 +83,7 @@ vertical-align: middle;
        max-width: 100%;
        height: auto;
        display: inline-block;
-      padding: 15px;
+      padding: 10px;
     
     }
     nav ul{
@@ -95,7 +95,7 @@ vertical-align: middle;
     
     nav ul li a {
        display: block;
-       padding: .8rem 2%;
+       padding: .8rem 1%;
        text-decoration: none;
        color: rgba(0,0,0,0.8);
        border-top: 1px solid rgba(0,0,0,0.3);
