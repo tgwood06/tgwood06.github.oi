@@ -243,10 +243,15 @@ border: 3px solid black;
              color: #d9480f;
            }*/
            * {box-sizing: border-box;}
+           /*div.Weathergallery figure img { width: 100% }
 
+           div.WeatherGallery {
+            display: grid;
+            grid-template-columns: repeat(1, 100%);
+           } */
            .Weathergallery {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(1, 1fr);
             grid-template-rows: 300px 300px 300px;
             grid-gap: 20px;
         }

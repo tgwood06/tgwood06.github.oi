@@ -2,6 +2,13 @@
 /* 64em is also 1028px when basefront is 16px */
 @media only screen and (min-width: 64rem){
 
+    .Weathergallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 300px 300px 300px;
+        grid-gap: 20px;
+    }
+
 nav{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */
 background: #bfd255; /* Old browsers */
