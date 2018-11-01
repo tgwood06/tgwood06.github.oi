@@ -221,7 +221,7 @@ border: 3px solid black;
         background-color: #8c8c4a;
         text-align: center;
          }
-         
+         /*WEATHER GALLERY CSS*/
         /* Fail in sizing, but want to keep for reference
         
          .Weathergallery {
@@ -264,7 +264,7 @@ border: 3px solid black;
             height: 100%;
             object-fit: cover;
         }
-           .gallerypics1, {
+           .gallerypics1 {
                max-width: 100%;
                height: auto;
            }
