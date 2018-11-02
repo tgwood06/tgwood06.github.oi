@@ -255,9 +255,9 @@ border: 3px solid black;
             grid-template-rows: 300px 300px 300px;
             grid-gap: 20px;
         }
-        div.Weathergallery figure:hover {
+        /*div.Weathergallery figure:hover {
             box-shadow: 6px 6px 9px #6F6F50;
-        }
+        } Large screen only*/
     
         figure > img {
             width: 100%;
