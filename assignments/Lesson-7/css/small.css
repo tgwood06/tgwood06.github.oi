@@ -129,7 +129,7 @@ vertical-align: middle;
 }
 
 .currentconditions{
-    display: inline-block;
+    display: block;
     margin: 1rem 0 1rem 5rem;
     padding: 1.5rem;
     vertical-align: middle;
@@ -142,6 +142,17 @@ vertical-align: middle;
 .currentconditions > img{
     width: 100px;
     height: auto;
+
+}
+.logo > img {
+    width: 150px;
+    height: auto;
+    background-color: #C8C81B;
+    border: 1pt solid rgba(0, 87, 25,0.3);
+    display: block;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.5rem;
+    vertical-align: middle;
 
 }
 
