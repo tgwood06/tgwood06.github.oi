@@ -8,7 +8,7 @@
     }   do I need this for this css? copied it from forms video*/
 
 
-    .Weathergallery {
+   /* .Weathergallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 300px 300px 300px;
@@ -17,7 +17,7 @@
 
     div.Weathergallery figure:hover {
         box-shadow: 6px 6px 9px #6F6F50;
-    }
+    }*/
 
 nav{
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+50,72aa00+51,9ecb2d+100;Green+Gloss */

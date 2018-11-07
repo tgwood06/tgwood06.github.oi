@@ -8,11 +8,11 @@ body {
     font-family: "Merriweather Sans", sans-serif;
     font-size: 20px;
         margin: 0;
-        background: lightyellow;
+       /* background:*/
         font-family: 'Merriweather', serif;
         font-size: 20px;
         text-align: center;
-        background-color: antiquewhite;
+        background-color:rgba(177, 177, 45, 0.534) ;
         
      }
 
@@ -150,20 +150,21 @@ nav ul.hide {display: none;}
 
 /*-------------Form---------------*/
 form fieldset {
+    display: block;
     margin: 2rem 0;
-    border: 1px solid #445ba9;
+    border: 2px solid black;
     border-radius: 10px;
     padding: .5rem 2%;
 }
 form legend {
-    color: #445ba9;
+    color:black;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
 form label.top, form div {
     display: block;
     padding-top: 1rem;
-    color: #9c2c14;
+    color: #7B7B00;
     font-size: .8rem;
 
 }
@@ -188,7 +189,7 @@ form label.sbs {
 }
 form input.submitBtn {
     border: none;
-    background-color: #9c2c13;
+    background-color: #555500;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;

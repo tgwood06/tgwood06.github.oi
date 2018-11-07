@@ -84,45 +84,50 @@
         
 <form method="get" action="thanks.html">
     <fieldset>
-        <legend>Applicant Information</legend>
-       <label class="top"> First Name* <input type="text" name="fname" required></label>
-       <label class="top"> Last Name* <input type="text" name="lname" required></label>
-       <label class="top"></label> Phone <input type="tel" name="phone" placeholder="12355512234"></label>
-       <label class="top"></label> Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-       <label class="top"></label> Website <input type="url" name="url" placeholder="http://"></label>
+        <legend>Contact Info</legend>
+       <label class="top"></label> Full Name* <input type="text" name="fname" required></label>
+       <label class="top"></label> Phone* <input type="tel" name="phone" placeholder="1235555555" required></label>
+       <label class="top"></label> Email* <input type="email" name="email" placeholder="getweather@gmail.com" required></label>
+       <label class="top"></label> Zip Code* <input type="number" name="zip" required></label><!--Can't turn off # selector-->
+      
      </fieldset>
 
      <fieldset>
-         <legend>Course Information</legend>
-         <div>Audience</div>
-         <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
-         <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
-         <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
-     </fieldset>
-     <div>Software Nedded</div>
-     <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editting</label>
-     <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
-     <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
-     <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
+            <legend>Storm Information</legend>
+            <label class="top">Storm Date <input type="date" name="completeDate"></label>
+            <label class="top"> Storm Type
+                <select name="subject">
+                    <option value="">Please Select &#9662;</option>
+                    <option value="FlashFlood">Flash Flood</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Hurricane">Hurricane</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Tornado">Tornado</option>
+                </select>
+            </label>
+            <label class="top">Storm Severity <input type="number" name="severityquantity" min="1" max="10">
+               
+                <label class="top">Storm Region 
+                        <select name="region">
+                                <option value="">Select Region... &#9662;</option>
+                                <option value="Preston">Preston</option>
+                                <option value="Soda Springs">Soda Springs</option>
+                                <option value="Fish Haven">Fish Haven</option>
+                            </select>
+        </fieldset>
 
      <fieldset>
-         <legend>Funding</legend>
-         <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
-         <label class="top"> Course Subject
-             <select name="subject">
-                 <option value="">Please Select &#9662;</option>
-                 <option value="software">Softwate Dev</option>
-                 <option value="creative">Creative Pro</option>
-                 <option value="info">Info Tech</option>
-                 <option value="data">Data Pro</option>
-                 <option value="Construction">Softwate Dev</option>
-                 <option value="business">Business Pro</option>
-             </select>
-         </label>
-         <label class="top">How Many Authors <input type="number" name="authors"></label>
+         <legend>User In-Danger Level</legend>
+         <div>Weather Danger Levels</div>
+         <label class="sbs"><input type="radio" name="dangerlevels" value="yes"> Beginner</label>
+         <label class="sbs"><input type="radio" name="dangerlevels" value="maybe"> Intermediate</label>
+         <label class="sbs"><input type="radio" name="dangerlevels" value="no"> Advanced</label>
      </fieldset>
+     
 
-     <input type="Submit" value="Propose My Course" class="submitBtn">
+     
+
+     <input type="Submit" value="Enter Storm Data" class="submitBtn">
      
 
 </form>
