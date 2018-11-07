@@ -2,6 +2,12 @@
 /* 64em is also 1028px when basefront is 16px */
 @media only screen and (min-width: 64rem){
 
+    header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
+
+
     .Weathergallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -36,6 +42,11 @@ nav ul li a {
    border-right: 1px solid rgba(0,0,0,0.3);
    padding: .6rem 1rem;
 
+}
+/*-------Main--------*/
+
+form label.sbs {
+    padding: .4rem 0;/*groups them a little closer together*/
 }
 }/*end large*/
 

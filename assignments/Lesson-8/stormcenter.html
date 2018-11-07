@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Weather Play Time Preston sunny rain snow outside">
+    <meta name="author" content="Tricia Greenwood">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+    <!-- This start file was build by Paul Cheney  -->
+    <title>WeatherPlayTime | Preston | Forecast and Conditions</title>
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+    <!-- STYLE SHEETS -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <!-- phone-default -->
+    <link href="css/smallform1.css" rel="stylesheet">
+    <!--<link href="css/small.css" rel="stylesheet">-->
+    <!-- enhance-tablet-->
+    <link href="css/medium.css" rel="stylesheet">
+    <enhance-desktop-->
+    <link href="css/large.css" rel="stylesheet">-->
+
+
+
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+
+    <header>
+        <img src="images/weatherlogoOG.jpg" alt="weathr site logo">
+        <div class="headertext">
+            <h1>Weather Play Time</h1>
+            <div class="subheading">We help you decide weather its time to stay home or go play!</div>
+        </div>
+        <div class="currentconditions">
+            <img id="currentconditionweathericon" src="images/snowflakeog.png" alt="current weather icon">
+            <p id="Cold">Cold</p>
+        </div>
+    </header>
+
+
+
+    <!-- NAVIGATION HERE -->
+
+    <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="primaryNav" class="hide">
+                <li>
+                    <a href="#" onclick="">Menu</a>
+                </li>
+                <li>
+                    <a href="Week7redo.html">Home</a>
+                </li>
+                <li class="Prestonli">
+                    <a href="Week7redo.html">Preston</a>
+                </li>
+                <li>
+                    <a href="#">Soda Springs</a>
+                </li>
+                <li>
+                    <a href="#">Fish Haven</a>
+                </li>
+                <li>
+                    <a href="stormcenter.html">Storm Center</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+            </ul>
+        </nav>
+
+    <!-- CONTENT HERE -->
+    <main>
+        <h2>Town of Preston</h2>
+
+        <h1>Course Proposal Application</h1>
+        
+<form method="get" action="thanks.html">
+    <fieldset>
+        <legend>Applicant Information</legend>
+       <label class="top"> First Name* <input type="text" name="fname" required></label>
+       <label class="top"> Last Name* <input type="text" name="lname" required></label>
+       <label class="top"></label> Phone <input type="tel" name="phone" placeholder="12355512234"></label>
+       <label class="top"></label> Email <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+       <label class="top"></label> Website <input type="url" name="url" placeholder="http://"></label>
+     </fieldset>
+
+     <fieldset>
+         <legend>Course Information</legend>
+         <div>Audience</div>
+         <label class="sbs"><input type="radio" name="audience" value="beginner"> Beginner</label>
+         <label class="sbs"><input type="radio" name="audience" value="intermediate"> Intermediate</label>
+         <label class="sbs"><input type="radio" name="audience" value="advanced"> Advanced</label>
+     </fieldset>
+     <div>Software Nedded</div>
+     <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editting</label>
+     <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
+     <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
+     <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
+
+     <fieldset>
+         <legend>Funding</legend>
+         <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
+         <label class="top"> Course Subject
+             <select name="subject">
+                 <option value="">Please Select &#9662;</option>
+                 <option value="software">Softwate Dev</option>
+                 <option value="creative">Creative Pro</option>
+                 <option value="info">Info Tech</option>
+                 <option value="data">Data Pro</option>
+                 <option value="Construction">Softwate Dev</option>
+                 <option value="business">Business Pro</option>
+             </select>
+         </label>
+         <label class="top">How Many Authors <input type="number" name="authors"></label>
+     </fieldset>
+
+     <input type="Submit" value="Propose My Course" class="submitBtn">
+     
+
+</form>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <p><small>&copy; 2018 CIT230 | Preston Weather Page | Tricia Greenwood week 5</small> </p>
+        <span id="date"></span>
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
+
+</body>
+
+</html>
