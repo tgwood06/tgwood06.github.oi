@@ -85,11 +85,11 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Info</legend>
-                <label class="top"></label> Full Name* <input type="text" min="5" name="input1" required pattern="[A-Za-z]"></label>
-                <label class="top"></label> Phone* <input type="tel" name="phone" placeholder="1235555555" required></label>
-                <label class="top"></label> Email* <input type="email" name="email" placeholder="getweather@gmail.com"
+                <label class="top"></label> Full Name* <br><input type="text" min="5" name="input1" required pattern="[A-Za-z]"></label>
+                <label class="top"></label> Phone* <br><input type="tel" name="phone" placeholder="1235555555" required></label>
+                <label class="top"></label> Email* <br><input type="email" name="email" placeholder="getweather@gmail.com"
                     required></label>
-                <label class="top"></label> Zip Code* <input type="number" name="zip" required></label>
+                <label class="top"></label> Zip Code* <br><input type="number" name="zip" required></label>
                 <!--Can't turn off # selector-->
 
             </fieldset>
@@ -134,7 +134,8 @@
             </fieldset>
 
 
-
+            <textarea rows="5" cols="50" name="comment" form="usrform">
+            Enter additional storm info here...</textarea>
 
             <input type="Submit" value="Enter Storm Data" class="submitBtn">
 

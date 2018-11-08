@@ -194,6 +194,13 @@ form label.sbs {
     color: #555;
 
 }
+textarea{
+    display: block;
+    border-radius: 2rem;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
 form input.submitBtn {
     border: none;
     background-color: #555500;
@@ -216,7 +223,7 @@ form label.top input:required:valid {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: #8C8C4A;
     padding: .5rem 2%;
     text-align: center;
 }
