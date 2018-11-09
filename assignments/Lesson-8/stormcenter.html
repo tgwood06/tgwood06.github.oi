@@ -85,7 +85,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Info</legend>
-                <label class="top"></label> Full Name* <br><input type="text" min="5" name="input1" required pattern="[A-Za-z]"></label>
+                <label class="top"></label> Full Name* <br><input type="text" name="input1" pattern="[a-zA-Z]+[ ][a-zA-Z]+".{5,} required></label>
                 <label class="top"></label> Phone* <br><input type="tel" name="phone" placeholder="1235555555" required></label>
                 <label class="top"></label> Email* <br><input type="email" name="email" placeholder="getweather@gmail.com"
                     required></label>

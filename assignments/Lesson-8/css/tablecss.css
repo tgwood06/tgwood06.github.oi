@@ -11,9 +11,8 @@ html {
   
   table {
     border-collapse: collapse;
-   /* letter-spacing: 1px;
+    letter-spacing: 1px;
     font-size: 1rem;
-   border: 1px solid #ccc;*/
       width: 300px;
       background-color: #e7f0ed;
       box-shadow: 10px 10px 20px #628ca6;
@@ -21,6 +20,7 @@ html {
 
   thead td {
     background-color: #7fb9c2;
+    font-size: 1rem;
   }
   tbody th {
     background-color: #628ca6;
