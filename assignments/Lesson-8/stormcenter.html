@@ -23,8 +23,8 @@
     <!--<link href="css/small.css" rel="stylesheet">-->
     <!-- enhance-tablet-->
     <link href="css/medium.css" rel="stylesheet">
-    <enhance-desktop-->
-        <link href="css/large.css" rel="stylesheet">
+    <!--enhance-desktop-->
+    <link href="css/large.css" rel="stylesheet">
 
 
 
@@ -85,12 +85,13 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Info</legend>
-                <label class="top"></label> Full Name* <br><input type="text" name="input1" pattern="[a-zA-Z]+[ ][a-zA-Z]+".{5,} required></label>
-                <label class="top"></label> Phone* <br><input type="tel" name="phone" placeholder="1235555555" required></label>
-                <label class="top"></label> Email* <br><input type="email" name="email" placeholder="getweather@gmail.com"
+                <label class="top"> Full Name* <br><input type="text" name="FullName" pattern="[a-zA-Z]*{5,}"
                     required></label>
-                <label class="top"></label> Zip Code* <br><input type="number" name="zip" required></label>
-                <!--Can't turn off # selector-->
+                <label class="top"> Phone* <br><input type="tel" name="phone" placeholder="1235555555" required></label>
+                <label class="top"> Email* <br><input type="email" name="email" placeholder="getweather@gmail.com"
+                    required></label>
+                <label class="top"> Zip Code* <br><input type="number" name="zip" required></label>
+                
 
             </fieldset>
 
@@ -116,13 +117,13 @@
                 <!-- <label class="top">Storm Severity <input type="number" name="severity" min="1" max="10"></label>-->
                 <!-- <input type="range"  do I need a range scale?-->
 
-                <label class="top">Storm Region
-                    <select name="region">
-                        <option value="">Select Region... &#9662;</option>
-                        <option value="Preston">Preston</option>
-                        <option value="Soda Springs">Soda Springs</option>
-                        <option value="Fish Haven">Fish Haven</option>
-                    </select>
+                <label class="top">Storm Region</label>
+                <select name="region">
+                    <option value="">Select Region... &#9662;</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
             </fieldset>
 
             <fieldset>
@@ -134,7 +135,7 @@
             </fieldset>
 
 
-            <textarea rows="5" cols="50" name="comment" form="usrform">
+            <textarea rows="5" cols="50" name="comment">
             Enter additional storm info here...</textarea>
 
             <input type="Submit" value="Enter Storm Data" class="submitBtn">
