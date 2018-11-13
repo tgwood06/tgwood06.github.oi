@@ -1,0 +1,62 @@
+/* || general styles */
+
+html {
+  /*font-family: 'helvetica neue', helvetica, arial, sans-serif;*/
+  font-family: 'Supermercado One', cursive;
+}
+
+body {
+    background-color:whitesmoke;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/*h1,*/ h2 {
+  /*font-family: 'Faster One', cursive;*/
+  color: yellow ;
+  background-color: blue ;
+  padding: 2%;
+  font-family: 'Supermercado One', cursive;
+  border-radius: 25px;
+  margin: 2px;
+}
+
+/* header styles */
+
+h1 {
+    color: red;
+    background-color: blue;
+    border: 2px solid red;
+  font-size: 4rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+/* section styles */
+
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+    color:red;
+  margin: 5px 0;
+  padding: 2%;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+}
