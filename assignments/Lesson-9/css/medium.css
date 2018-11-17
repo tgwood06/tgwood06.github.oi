@@ -1,0 +1,15 @@
+/*color pallette: Palette UID: 11T0u0kllll8OdUf4hCrBp3AAsM*/
+/* 35em is also 560px when basefront is 16px*/
+@media only screen and (min-width: 37.5rem) {
+
+    .Weathergallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px 300px 300px;
+        grid-gap: 20px;
+    }
+    table.table {
+            display: block;
+        }
+    }
+    /*end medium*/

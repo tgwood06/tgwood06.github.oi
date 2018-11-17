@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Weather Site Form Page">
+<meta name="author" content="Tricia Greenwood">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Weather Site Thanks for Submitting your data Page</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+<!-- HEADER HERE -->
+<header>
+        <img src="images/weatherlogoOG.jpg" alt="weathr site logo">
+        <div class="headertext">
+            <h1>Weather Play Time</h1>
+            <div class="subheading">We help you decide weather its time to stay home or go play!</div>
+        </div>
+        <div class="currentconditions">
+            <img id="currentconditionweathericon" src="images/snowflakeog.png" alt="current weather icon">
+            <p id="Cold">Cold</p>
+        </div>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+<nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+            <li>
+                <a href="#" onclick="">Menu</a>
+            </li>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li class="Prestonli">
+                <a href="Preston.html">Preston</a>
+            </li>
+            <li>
+                <a href="#">Soda Springs</a>
+            </li>
+            <li>
+                <a href="#">Fish Haven</a>
+            </li>
+            <li>
+                <a href="stormcenter.html">Storm Center</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+        </ul>
+    </nav>
+    
+<!-- CONTENT HERE -->
+<main>
+    <h1>Weather Site Report Thank You Page</h1>
+        <p>Thank you for reporting the weather in your area. If you are in danger, seek shelter immediately.</p>
+          
+        
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>
+        <p><small>&copy; 2018 CIT230 | Preston Weather Page | Tricia Greenwood week 8</small> </p>
+        <span id="date"></span>
+    </footer>
+
+    <script src="js/hamburger.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/windchill.js"></script>
+
+</body>
+</html>
