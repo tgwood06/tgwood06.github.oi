@@ -136,16 +136,19 @@ nav li { flex: 1 1 100%; }
        color: rgba(0,0,0,0.8);
        border-top: 1px solid rgba(0,0,0,0.3);
     }
-    nav ul li a:active {
-        background-color: yellow;
-    }
+   
     /*nav ul li.Prestonli a{
         background-color: rgba(0,0,0,0.2);
      }*/
     nav ul li a:hover {
        background-color: rgba(0,0,0,0.4);
     }
-      
+    nav ul li a:active {
+        background-color: yellow;
+    }
+    nav ul li a:visited{
+        background-color: yellow; 
+    }
     nav ul.hide {display: none;}
 
      /*content*/
