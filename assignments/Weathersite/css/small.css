@@ -1,0 +1,374 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/*BODY*/
+body {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 20px;
+        margin: 0;
+        background: lightyellow;
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        text-align: center;
+        background-color: antiquewhite;
+        
+     }
+
+
+main h2 {
+    background-color: #8c8c4a;
+}
+
+/*HEADER*/
+header{
+
+    background-color: #8C8C4A;
+    
+    display: flex;
+    
+    flex-flow: row;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    padding: 10px;
+text-align: center;
+padding: 1rem;
+color: #C8C81B;
+/*display: inline-block;*/
+
+}
+
+header > img {
+width: 150px;
+height: auto;
+vertical-align: middle;
+}
+
+.headertext {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headertext h1 {
+    font-size: 4rem;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    color: #C8C81B;
+    font-style: italic;
+}
+
+.currentconditions{
+    display: inline-block;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.5rem;
+    vertical-align: middle;
+    color: whitesmoke;
+    background-color: #C8C81B;
+    border: 1pt solid rgba(0, 87, 25,0.3);
+    font-size: 1.5rem;
+}
+
+.currentconditions > img{
+    width: 100px;
+    height: auto;
+
+}
+.logo > img {
+
+    width: 150px;
+    
+    height: auto;
+    
+    background-color: #C8C81B;
+    
+    border: 1pt solid rgba(0, 87, 25,0.3);
+    
+    display: block;
+    
+    margin: 1rem 0 1rem 5rem;
+    
+    padding: 1.5rem;
+    
+    /*vertical-align: middle;*/
+    
+    
+    
+    }
+/*NAVIGATION*/
+
+    nav button{
+        margin: .2rem 2%;
+        background-color: transparent;
+        border: none;
+        font-size: 1.6rem;
+        color: whitesmoke;
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #C8C81B;
+       max-width: 100%;
+       height: auto;
+       display: inline-block;
+      padding: 10px;
+    
+    }
+     nav ul{
+        display: inline-block;
+       list-style-type: none;
+       padding: 0;
+       margin: 0;
+    
+     }
+
+nav li { flex: 1 1 100%; }
+    
+    nav ul li a {
+       display: flex;
+       padding: .8rem 1%;
+       text-decoration: none;
+       color: rgba(0,0,0,0.8);
+       border-top: 1px solid rgba(0,0,0,0.3);
+    }
+   
+    /*nav ul li.Prestonli a{
+        background-color: rgba(0,0,0,0.2);
+     }*/
+    nav ul li a:hover {
+       background-color: rgba(0,0,0,0.4);
+    }
+    nav ul li a:active {
+        background-color: yellow;
+    }
+    nav ul li a:visited{
+        background-color: yellow; 
+    }
+    nav ul.hide {display: none;}
+
+     /*content*/
+
+    /*MAIN*/
+    
+/*WEATHER GALLERY CSS*/
+
+/* Fail in sizing, but want to keep for reference
+
+
+
+.Weathergallery {
+
+display: grid;
+
+grid-template-columns: repeat(3, 1fr);
+
+grid-auto-rows: auto;
+
+grid-gap: 10px;
+
+}
+
+.Weathergallery {
+
+border: 2px solid #f76707;
+
+border-radius: 5px;
+
+background-color: #fff4e6;
+
+}
+
+.Weathergallery > div {
+
+border: 2px solid #ffa94d;
+
+border-radius: 5px;
+
+background-color: #ffd8a8;
+
+padding: 1em;
+
+color: #d9480f;
+
+}*/
+
+* {box-sizing: border-box;}
+
+/*div.Weathergallery figure img { width: 100% }
+
+
+
+div.WeatherGallery {
+
+display: grid;
+
+grid-template-columns: repeat(1, 100%);
+
+} */
+
+.Weathergallery {
+
+display: grid;
+
+grid-template-columns: repeat(1, 1fr);
+
+grid-template-rows: 300px 300px 300px;
+
+grid-gap: 20px;
+
+}
+
+/*div.Weathergallery figure:hover {
+
+box-shadow: 6px 6px 9px #6F6F50;
+
+} Large screen only*/
+
+
+
+figure > img {
+
+width: 100%;
+
+height: 100%;
+
+object-fit: cover;
+
+}
+
+.gallerypics1 {
+
+max-width: 100%;
+
+height: auto;
+
+}
+
+
+    /*TownImage*/
+
+   /* .TownImage{
+        
+
+    }
+.TownImage > img {
+
+}*/
+    .weathersummary {
+background-color: #8c8c4a;
+border: 3px solid black;
+
+    }
+
+   /* .weatherdetails {
+
+    }*/
+
+    /*current ForeCast*/
+    .foreCast {
+        display:flex;
+        flex-direction: column;
+        background-color: #8C8C4A;
+        border: 1px solid black;
+        margin: 5px;
+        padding: 5px;
+
+
+    }
+      #weather_icon {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        width: 50px;
+    }
+    /*section with table forecast*/
+
+
+    .forecast {
+        max-width: 100%;
+        height: auto;
+        border: 25px solid #6F6F50;
+        padding: 10px;
+        margin: auto;
+        background-color: #8c8c4a;
+        text-align: center;
+         }
+         
+         /*Preston FOREcast*/
+         .FOREcast {
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+
+         }
+
+    /*ARTICLE*/
+    .weatherstory {
+        max-width: 100%;
+        height: auto;
+        border: 7px solid  black;
+        padding: 5px;
+        margin: auto;
+        background-color: #8C8C4A;
+    
+    }
+    /*Aside--Contact*/
+
+    .contactinfo {
+     
+        text-align: center;
+        margin: 2em;
+        padding: 1em;
+        border: 1em solid black;
+        background: 100%;
+        background-color: #8c8c4a;
+        
+    }
+
+    /*-------Town JSON Data------*/
+   
+    section article {
+        display: inline-grid;
+        grid-gap: 2rem;
+        grid-template-columns: auto;
+        padding: 1rem;
+        border: 1em solid black;
+        margin: 1px;
+        background-color: #8C8C4A;
+      }
+      
+      section p {
+          color: black;
+        margin: 2px 0;
+        padding: 2%;
+      }
+      
+      section ul {
+        margin-top: 0;
+      }
+      
+
+/*footer*/
+
+footer {
+    padding: 10px;
+    margin: 10px;
+    border: 10px solid black;
+    max-width: 100%;
+    height: auto;
+    font-size: 20px;
+    background-color: #8c8c4a;
+    text-align: center;
+   
+}
+/*-----Clearfix: Force an element not to collapse-----*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
