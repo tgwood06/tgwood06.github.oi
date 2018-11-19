@@ -79,13 +79,13 @@
     <main>
 
         <h2>Town of Preston</h2>
-        <section class="FOREcast">
+        <!--  <section class="FOREcast">
             <h1>Forecast</h1>
             <h2>Weather conditions for <span id="place">city</span></h2>
             <p>Current Temperature is <span id="currentTemp">00</span>&deg;</p>
-            <p>Wind Speed is <span id="currentWind">00</span></p>
-            <img src="images/placeholder.png" alt="current weather" id="weather_icon">
-            
+            <p>Wind Speed is <span id="currentWind">00</span></p>-->
+
+
         </section>
         <div class="TownImage">
             <!--hero image replace-->
@@ -95,15 +95,16 @@
                 <h3>Weather Summary</h3>
                 <div class="weatherdetails">
                     <p class="label">Currently:</p>
-                    <p class="value">Mist</p>
+                    <div classs="currentweatherIcon" id="currentweatherIcon"><img src="images/placeholder.png" alt="current weather"
+                            id="weather_icon"></div>
                     <p class="label">Temperature:</p>
-                    <p class="value">51 &deg;F</p>
+                    <p class="value" id="currentTemp"></p>
                     <p class="label">Humidity:</p>
-                    <p class="value">89%</p>
+                    <p class="value" id="Humidity"></p>
                     <p class="label">Precipitation:</p>
                     <p class="value">0 inches</p>
                     <p class="label">Wind Speed:</p>
-                    <p class="value">8 mph</p>
+                    <p class="value" id="currentWind"></p>
                     <p class="label">Wind Chill</p>
                     <!--wind chill results?-->
                     <p class="value" id="windchill"></p>
@@ -138,7 +139,7 @@
             </table>
         </section>
 
-      
+
 
         <aside class="contactinfo">
             <h6>Weather Play Site<br> 1000 N. Main<br>Preston, Id<br>999-999-9999</h6>

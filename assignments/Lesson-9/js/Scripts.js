@@ -9,9 +9,9 @@ weatherObject.onload = function(){
     console.log(weatherInfo);
 
     document.getElementById('place').innerHTML = weatherInfo.name;
-    document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp;
+    document.getElementById('currentTemp').innerHTML = weatherInfo.main.temp + "&deg;F";
     document.getElementById('currentWind').innerHTML = weatherInfo.wind.speed;
-    
+    document.getElementById('Humidity').innerHTML = weatherInfo.main.humidity;
     var iconcode = weatherInfo.weather[0].icon;
     var icon_path = "//openweathermap.org/img/w/" + iconcode + ".png";
     document.getElementById('weather_icon').src = icon_path;
