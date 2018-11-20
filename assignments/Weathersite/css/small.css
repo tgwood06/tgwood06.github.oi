@@ -19,27 +19,20 @@ body {
 
 main h2 {
     background-color: #8c8c4a;
+
 }
 
 /*HEADER*/
 header{
-
     background-color: #8C8C4A;
-    
-    display: flex;
-    
-    flex-flow: row;
-    
-    align-items: center;
-    
+     display: flex;
+     flex-flow: row;
+     align-items: center;
     justify-content: center;
-    
     padding: 10px;
-text-align: center;
-padding: 1rem;
-color: #C8C81B;
-/*display: inline-block;*/
-
+    text-align: center;
+    padding: 1rem;
+    color: #C8C81B;
 }
 
 header > img {
@@ -253,24 +246,33 @@ height: auto;
     /*TownImage*/
 
    /* .TownImage{
-        
-
-    }
-.TownImage > img {
-
+        background-image: url(../images/prestonNormal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    border: 1px solid black;
+    margin: 2rem;
 }*/
+     
+
     .weathersummary {
+        display: inline-flex;
+        margin: 2rem;
 background-color: #8c8c4a;
 border: 3px solid black;
 
     }
 
-   /* .weatherdetails {
-
-    }*/
+    .weatherdetails {
+   
+    
+    margin: 30px;
+    
+    background-color: #8c8c4a;
+}
 
     /*current ForeCast*/
-    .foreCast {
+    .forecast {
         display:flex;
         flex-direction: column;
         background-color: #8C8C4A;
@@ -299,13 +301,21 @@ border: 3px solid black;
         text-align: center;
          }
          
-         /*Preston FOREcast*/
+         Preston FOREcast
          .FOREcast {
              display: flex;
              flex-direction: column;
              justify-content: center;
 
          }
+         .current {
+    display: flex;
+    align-items: center;
+    position: relative;
+    right:35px;
+
+}
+
 
     /*ARTICLE*/
     .weatherstory {
@@ -319,7 +329,7 @@ border: 3px solid black;
     }
     /*Aside--Contact*/
 
-    .contactinfo {
+    #contactinfo {
      
         text-align: center;
         margin: 2em;

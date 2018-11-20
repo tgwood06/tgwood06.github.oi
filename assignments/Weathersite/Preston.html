@@ -76,24 +76,16 @@
     </nav>
 
     <!-- CONTENT HERE -->
-    <main>
+    <main class="maincontent">
 
         <h2>Town of Preston</h2>
-        <!--  <section class="FOREcast">
-            <h1>Forecast</h1>
-            <h2>Weather conditions for <span id="place">city</span></h2>
-            <p>Current Temperature is <span id="currentTemp">00</span>&deg;</p>
-            <p>Wind Speed is <span id="currentWind">00</span></p>-->
-
-
-        </section>
-        <div class="TownImage">
-            <!--hero image replace-->
-            <img src="images/prestonNormal.jpg" sizes="100vw" alt="Picture of Preston" srcset="images/prestonsmall.jpg 200w,  srcset=images/prestonsmall.jpg 500w,  images/prestonsmall.jpg 800w, images/prestonNormal.jpg 1200w">
+        <div class="TopofBox">
+            <img src="images/prestonNormal.jpg" class="PrestonImg" sizes="100vw" alt="Picture of Preston" srcset="images/prestonsmall.jpg 200w,  srcset=images/prestonsmall.jpg 500w,  images/prestonsmall.jpg 800w, images/prestonNormal.jpg 1200w">
 
             <section class="weathersummary">
-                <h3>Weather Summary</h3>
+                
                 <div class="weatherdetails">
+                        <h3>Weather Summary</h3>
                     <p class="label">Currently:</p>
                     <div classs="currentweatherIcon" id="currentweatherIcon"><img src="images/placeholder.png" alt="current weather"
                             id="weather_icon"></div>
@@ -112,38 +104,38 @@
             </section>
         </div>
 
+            <section class="forecast">
+                <h3>High Temperature Forecast</h3>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Wed</th>
+                            <th>Thu</th>
+                            <th>Fri</th>
+                            <th>Sat</th>
+                            <th>Sun</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Forecast</th>
+                            <td>28&deg;F</td>
+                            <td>27&deg;F</td>
+                            <td>29&deg;F</td>
+                            <td>30&deg;F</td>
+                            <td>32&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        
 
-        <section class="forecast">
-            <h3>High Temperature Forecast</h3>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Day</th>
-                        <th>Wed</th>
-                        <th>Thu</th>
-                        <th>Fri</th>
-                        <th>Sat</th>
-                        <th>Sun</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Forecast</th>
-                        <td>28&deg;F</td>
-                        <td>27&deg;F</td>
-                        <td>29&deg;F</td>
-                        <td>30&deg;F</td>
-                        <td>32&deg;F</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
 
-
-
-        <aside class="contactinfo">
-            <h6>Weather Play Site<br> 1000 N. Main<br>Preston, Id<br>999-999-9999</h6>
-        </aside>
+        <div id="contactinfo">
+            <h6>Weather Play Site<br> 1000 N. Main<br>Preston, Id<br>999-999-9999<br>
+            email:Weather@gmail.com</h6>
+        </div>
 
 
     </main>
@@ -151,6 +143,7 @@
     <!-- FOOTER HERE -->
     <footer>
         <p><small>&copy; 2018 CIT230 | Preston Weather Page | Tricia Greenwood week 8</small> </p>
+        <p><small>Weather info taken from www.openweathermap.org</small></p>
         <span id="date"></span>
     </footer>
 

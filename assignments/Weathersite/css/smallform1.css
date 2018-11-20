@@ -1,0 +1,238 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+/*BODY*/
+body {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 20px;
+        margin: 0;
+       /* background:*/
+        font-family: 'Merriweather', serif;
+        font-size: 20px;
+        text-align: center;
+        background-color:rgba(177, 177, 45, 0.534) ;
+        
+     }
+
+
+main h2 {
+    background-color: #8c8c4a;
+}
+
+/*HEADER*/
+header{
+
+    background-color: #8C8C4A;
+    
+    display: flex;
+    
+    flex-flow: row;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    padding: 10px;
+text-align: center;
+padding: 1rem;
+color: #C8C81B;
+/*display: inline-block;*/
+
+}
+
+header > img {
+width: 150px;
+height: auto;
+vertical-align: middle;
+}
+
+.headertext {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.headertext h1 {
+    font-size: 4rem;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    color: #C8C81B;
+    font-style: italic;
+}
+
+.currentconditions{
+    display: inline-block;
+    margin: 1rem 0 1rem 5rem;
+    padding: 1.5rem;
+    vertical-align: middle;
+    color: whitesmoke;
+    background-color: #C8C81B;
+    border: 1pt solid rgba(0, 87, 25,0.3);
+    font-size: 1.5rem;
+}
+
+.currentconditions > img{
+    width: 100px;
+    height: auto;
+
+}
+.logo > img {
+
+    width: 150px;
+    
+    height: auto;
+    
+    background-color: #C8C81B;
+    
+    border: 1pt solid rgba(0, 87, 25,0.3);
+    
+    display: block;
+    
+    margin: 1rem 0 1rem 5rem;
+    
+    padding: 1.5rem;
+    
+    /*vertical-align: middle;*/
+    
+    
+    
+    }
+
+/*NAVIGATION*/
+
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #C8C81B;
+   max-width: 100%;
+   height: auto;
+   display: inline-block;
+  padding: 10px;
+
+}
+ nav ul{
+    display: inline-block;
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+
+ }
+
+nav li { flex: 1 1 100%; }
+
+nav ul li a {
+   display: flex;
+   padding: .8rem 1%;
+   text-decoration: none;
+   color: rgba(0,0,0,0.8);
+   border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li.Prestonli a{
+    background-color: rgba(0,0,0,0.2); color: #fff;
+ }
+nav ul li a:hover {
+   background-color: rgba(0,0,0,0.4);
+}
+  
+nav ul.hide {display: none;}
+
+
+/*-------------Form---------------*/
+form fieldset {
+    display: block;
+    text-align: left;
+    margin: 2rem 3%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+
+}
+form legend {
+    display: block;
+    color:black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+input.tel {
+    margin-left: 3.5%;
+
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+
+}
+form label.top input, form label.top select 
+{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #555;
+
+}
+textarea{
+    display: block;
+    border-radius: 2rem;
+    border: 1px solid black;
+    margin: 1rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #555500;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: red solid 6px;
+
+}
+form label.top input:required:valid {
+    border-left: #555500 solid 6px;
+}
+
+
+
+/*----------- FOOTER --------------*/
+footer {
+    background-color: #8C8C4A;
+    padding: .5rem 2%;
+    text-align: center;
+}
+
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
