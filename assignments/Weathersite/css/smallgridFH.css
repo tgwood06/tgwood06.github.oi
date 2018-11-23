@@ -37,7 +37,7 @@ vertical-align: middle;
 }
 
 .headertext {
-    display: inline-block;
+    display: inline-grid;
     vertical-align: middle;
 }
 
@@ -175,7 +175,7 @@ height: auto;
      
 
     .weathersummary {
-        display: inline-grid;
+        display: grid;
         margin: 2rem;
 background-color: #8c8c4a;
 border: 3px solid black;
