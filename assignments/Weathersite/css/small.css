@@ -144,9 +144,9 @@ nav li { flex: 1 1 100%; }
        color: yellow;
 
     }
-   a.selected {
+   nav ul li a.selected {
        color: yellow;
-       background: #C8C81B;
+       background:white;
    }
    
     nav ul.hide {display: none;}
@@ -267,6 +267,7 @@ height: auto;
         margin: 2rem;
 background-color: #8c8c4a;
 border: 3px solid black;
+
 
     }
 
