@@ -19,7 +19,7 @@
     <!-- STYLE SHEETS -->
     <link href="css/normalize.css" rel="stylesheet">
     <!-- phone-default -->
-    <link href="css/small.css" rel="stylesheet">
+    <link href="css/smallgridFH.css" rel="stylesheet">
     <!-- enhance-tablet -->
     <link href="css/medium.css" rel="stylesheet">
     <!-- enhance-desktop -->
@@ -31,14 +31,16 @@
 
 <body>
     <!-- HEADER HERE -->
-
-    <header>
-        <img src="images/weatherlogoOG.jpg" alt="weathr site logo">
+<div class="gridcontainer">
+    <header class="item1">
+       <!-- <img src="images/weatherlogoOG.jpg" alt="weathr site logo">-->
         <div class="headertext">
             <h1>Weather Play Time</h1>
             <div class="subheading">We help you decide weather its time to stay home or go play!</div>
         </div>
+       
         <div class="currentconditions">
+                <img src="images/weatherlogoOG.jpg" class="logo" alt="weathr site logo">
             <img id="currentconditionweathericon" src="images/snowflakeog.png" alt="current weather icon">
             <p id="Cold">Cold</p>
         </div>
@@ -64,7 +66,7 @@
                 <a href="SodaSprings.html">Soda Springs</a>
             </li>
             <li>
-                <a href="FishHaven1.html">Fish Haven</a>
+                <a href="FishHaven.html">Fish Haven</a>
             </li>
             <li>
                 <a href="stormcenter.html">Storm Center</a>
@@ -78,24 +80,25 @@
     <!-- CONTENT HERE -->
     <main>
 
-        <h2>Town of Soda Springs</h2>
+        <h2>Town of Fish Haven</h2>
         <!--  <section class="FOREcast">
             <h1>Forecast</h1>
             <h2>Weather conditions for <span id="place">city</span></h2>
             <p>Current Temperature is <span id="currentTemp">00</span>&deg;</p>
-            <p>Wind Speed is <span id="currentWind">00</span></p>-->
+            <p>Wind Speed is <span id="currentWind">00</span></p>
 
 
-
-        <div class="TownImage">
+        </section>-->
+    
+        <div class="item3">
             <!--hero image replace-->
-            <img src="images/SodaSpringsLarge.jpg" sizes="100vw" alt="Picture of Soda Springs" srcset="images/SodaSpringssmall.jpg 200w,  srcset=images/SodaSpringssmall.jpg 500w,  images/SodaSpringssmall.jpg 800w, images/SodaSpringsLarge.jpg 1200w">
+            <img src="images/prestonNormal.jpg" sizes="100vw" alt="Picture of Preston" srcset="images/prestonsmall.jpg 200w,  srcset=images/prestonsmall.jpg 500w,  images/prestonsmall.jpg 800w, images/prestonNormal.jpg 1200w">
 
             <section class="weathersummary">
                 <h3>Weather Summary</h3>
                 <div class="weatherdetails">
                     <p class="label">Currently:</p>
-                    <div classs="currentweatherIcon" id="currentweatherIcon"><img src="images/placeholder.png" alt="current weather"
+                    <div class="currentweatherIcon" id="currentweatherIcon"><img src="images/placeholder.png" alt="current weather"
                             id="weather_icon"></div>
                     <p class="label">Temperature:</p>
                     <p class="value" id="currentTemp"></p>
@@ -109,12 +112,13 @@
                     <!--wind chill results?-->
                     <p class="value" id="windchill"></p>
                 </div>
-
             </section>
         </div>
+        
+    
 
-
-        <section class="forecast">
+<div class="item4">
+        <section>
             <h3>High Temperature Forecast</h3>
             <table class="table">
                 <thead>
@@ -139,26 +143,26 @@
                 </tbody>
             </table>
         </section>
+</div>
 
-
-
-        <div id="contactinfo">
-                <h6>Weather Play Site<br> 1000 N. Main<br>Preston, Id<br>999-999-9999<br>
-                email:Weather@gmail.com</h6>
-            </div>
+<div class="item5">
+        <aside class="contact">
+            <h6>Weather Play Site<br> 1000 N. Main<br>Preston, Id<br>999-999-9999</h6>
+        </aside>
+    </div>
 
     </main>
 
     <!-- FOOTER HERE -->
-    <footer>
-        <p><small>&copy; 2018 CIT230 | Soda Springs Weather Page | Tricia Greenwood week 8</small> </p>
+    <footer class="item6">
+        <p><small>&copy; 2018 CIT230 | Fish Haven Weather Page | Tricia Greenwood week 8</small> </p>
         <span id="date"></span>
     </footer>
-
+</div>
     <script src="js/hamburger.js"></script>
     <script src="js/date.js"></script>
     <script src="js/windchill.js"></script>
-    <script src="js/SodaSpringsScripts.js"></script>
+    <script src="js/fishhavenScripts.js"></script>
 
 </body>
 
