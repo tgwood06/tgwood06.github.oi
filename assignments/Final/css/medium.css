@@ -1,0 +1,15 @@
+@media only screen and (min-width: 560px){
+
+    nav li { float: left; width: 25%;} /*floats all nav on a single equal line*/
+    
+    main figure {
+        float: right; /*to get text to wrap around it*/
+        width: 61%; /*50% total image change to 48 when margin 2% is added*/
+        margin-left: 2%;
+        padding-bottom: .5rem; /*to keep text away from caption*/
+    }
+    
+    div.news {/*div news class, will make 2 columns and a line in the middle*/
+    column-count: 3;
+    }
+    }/**end of media query*/

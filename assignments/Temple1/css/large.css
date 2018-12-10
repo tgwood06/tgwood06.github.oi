@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1028px){
+
+    nav ul {padding-left:2%;}/*lines up nav with header*/
+    nav li{width: auto;} /*lines up to left*/
+    nav a {padding: .5rem 1rem;} /*spaces in between nav links*/
+    
+    main figure {
+        width: 48%; /*when added to 2% margin it equals 33% or 1/3 of the page*/
+    }
+    div.news {
+        column-count: 4;
+    }
+    
+    }/**end of media query*/

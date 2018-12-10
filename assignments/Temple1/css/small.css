@@ -1,0 +1,69 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+/*body rules*/
+body {
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+/*header rules here*/
+header {
+    background-color: #930c0f;
+    padding: 1rem 2%;
+}
+header h1 {
+    Color:white;
+    margin:0;
+}
+Header h2 {
+    color: white;
+    margin: 0;
+}
+
+
+/*navigation rules here*/
+nav { background-color: #a34e4f;}
+nav ul {margin: 0; padding:0;}
+nav li{list-style-type: none;}
+nav li.active {background-color: #834a4b}
+nav a {
+    display: block;
+    padding: .8rem 0; /*44 min height*/
+    color: rgb(228, 181, 181);
+    text-align: center;
+    text-decoration: none;
+}
+nav a:hover {background-color: #930c0f;}
+
+/*main rules */
+main{
+    padding: 1rem 2%; /*1top bottom 2% on sides*/
+    display: inline-block: /*for older browsers*/
+    }
+main h1 {color: #281d1d;}/*for main h1 color "EVENT"*/
+
+main figure img {width: 100%}/*requires img to be 100 of figure tag which it is inside of*/
+main figure {
+    width: 100%; /*tells figure how wide to be*/
+    margin: 0; /*removes gap between picture and side */
+}
+    main figcaption { text-align: center; font-size: .8rem;}
+
+    div.news {/*div news class, will make 2 columns and a line in the middle*/
+        clear: both;/*keeps news below all floated images aka cows*/
+        column-count: 2;
+        column-rule: 1px solid #ddd;
+        }
+/*footer style*/
+
+footer {
+    text-align: center;
+    padding: 1rem 2%;/*keeps the footer from sticking to the screen*/
+     background-color: #791d1f; /*to match header*/
+}
+
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
