@@ -2,13 +2,13 @@
 
 /*body rules*/
 body {
-    font-family: Verdana;
+    font-family: 'Nunito', sans-serif;
     font-size: 16px;
 }
 
 /*header rules here*/
 header {
-    background-color: #930c0f;
+    background-color: #226666;
     padding: 1rem 2%;
 }
 header h1 {
@@ -22,23 +22,24 @@ Header h2 {
 
 
 /*navigation rules here*/
-nav { background-color: #a34e4f;}
+nav { background-color: #151d1d;}
 nav ul {margin: 0; padding:0;}
 nav li{list-style-type: none;}
-nav li.active {background-color: #834a4b}
+nav li.active {background-color: #00c5c5}
 nav a {
     display: block;
     padding: .8rem 0; /*44 min height*/
-    color: rgb(228, 181, 181);
+    color: #138a8a;
     text-align: center;
     text-decoration: none;
 }
-nav a:hover {background-color: #930c0f;}
+nav a:hover {background-color: #00c5c5;}
+nav ul.hide {display: none;}
 
 /*main rules */
 main{
     padding: 1rem 2%; /*1top bottom 2% on sides*/
-    display: inline-block: /*for older browsers*/
+    display: inline-block; /*for older browsers*/
     }
 main h1 {color: #281d1d;}/*for main h1 color "EVENT"*/
 
@@ -59,7 +60,7 @@ main figure {
 footer {
     text-align: center;
     padding: 1rem 2%;/*keeps the footer from sticking to the screen*/
-     background-color: #791d1f; /*to match header*/
+     background-color: #226666; /*to match header*/
 }
 
 .clearfix:after{

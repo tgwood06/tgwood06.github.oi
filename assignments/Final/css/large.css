@@ -1,6 +1,14 @@
 @media only screen and (min-width: 1028px){
 
-    nav ul {padding-left:2%;}/*lines up nav with header*/
+    nav button {display: none;} 
+
+    nav ul.hide{ display: block; }
+    
+    nav ul {padding-left: 2%;}
+    
+    nav ul li {
+       float: left;
+    }
     nav li{width: auto;} /*lines up to left*/
     nav a {padding: .5rem 1rem;} /*spaces in between nav links*/
     

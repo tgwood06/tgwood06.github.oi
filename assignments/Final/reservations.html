@@ -1,0 +1,113 @@
+!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Temple Latter-day Saint" content="Temple Inn and Suites">
+  <meta name="author" content="John Doe">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <title>Temple: Home</title>
+  <!--keeps phones from using wrong size-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- STYLE SHEETS -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER HERE -->
+  <header>
+    <h1>Temple Inn and Suites
+    <!--site title-->
+    <h2>Book your stay and enjoy the day!</h2>
+    <!--Site Slogan-->
+  </header>
+
+  <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="primaryNav" class="hide">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="templespage.html">Temples</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li class="active"><a href="reservations.html">Reservation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      
+    </ul>
+  </nav>
+    <!-- CONTENT HERE -->
+    <main>
+        <h2>Town of Preston</h2>
+
+        <h1>Weather Play Time Storm Center</h1>
+
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Info</legend>
+                <label class="top"> Full Name* <br><input type="text" name="FullName" pattern="[a-zA-Z]*{5,}"
+                    required></label>
+                <label class="top"> Phone* <br><input type="tel" name="phone" placeholder="1235555555" required></label>
+                <label class="top"> Email* <br><input type="email" name="email" placeholder="getweather@gmail.com"
+                    required></label>
+                <label class="top"> Zip Code* <br><input type="number" name="zip" required></label>
+                
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date <input type="date" name="completeDate"></label>
+                <label class="top"> Storm Type
+                    <select name="subject">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="FlashFlood">Flash Flood</option>
+                        <option value="Hail">Hail</option>
+                        <option value="Hurricane">Hurricane</option>
+                        <option value="Thunderstorm">Thunderstorm</option>
+                        <option value="Tornado">Tornado</option>
+                    </select>
+                </label>
+
+                <label class="top"> Storm Severity Rating (1 to 10):</label>
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
+                    onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span><br>
+
+                <!-- <label class="top">Storm Severity <input type="number" name="severity" min="1" max="10"></label>-->
+                <!-- <input type="range"  do I need a range scale?-->
+
+                <label class="top">Storm Region</label>
+                <select name="region">
+                    <option value="">Select Region... &#9662;</option>
+                    <option value="Preston">Preston</option>
+                    <option value="Soda Springs">Soda Springs</option>
+                    <option value="Fish Haven">Fish Haven</option>
+                </select>
+            </fieldset>
+
+           
+
+
+            <textarea rows="5" cols="50" name="comment">
+            Enter additional storm info here...</textarea>
+
+            <input type="Submit" value="Enter Storm Data" class="submitBtn">
+
+
+        </form>
+    </main>
+
+    <!-- FOOTER HERE -->
+    <footer>
+        <p><small>&copy; 2018 CIT230 | Temple Inn and Suites | Tricia Greenwood</small> </p>
+        <span id="date"></span>
+    </footer>
+
+    <script src="js/date.js"></script>
+    <script src="js/hamburgernav.js"></script>
+
+</body>
+
+</html>
