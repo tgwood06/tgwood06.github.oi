@@ -199,6 +199,19 @@ position:relative;
     float:right;
     width: 500px;
 }
+
+/*temple page*/
+.templegrid {
+
+    display: grid;
+    
+    grid-template-columns: repeat(1, 3fr);
+    
+    grid-template-rows: 300px 300px 300px 300px;
+    
+    grid-gap: 10px;
+    
+    }
 /*footer style*/
 
 footer, .footer{

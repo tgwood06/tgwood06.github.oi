@@ -1,5 +1,5 @@
 var section = document.querySelector('section');
-var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var requestURL = '';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -14,7 +14,7 @@ function showData(jsonObj) {
   
     var town = jsonObj['towns'];
     for (var i = 0; i < town.length; i++) {
-        if (town[i].name == "Franklin" || town[i].name == "Springfield" || town[i].name == "Greenville") {
+        if (town[i].name == "San Diego Temple" || town[i].name == "San Antonio Temple" || town[i].name == "Salt Lake Temple"|| town[i].name == "Cedar City Temple" ) {
             var myArticle = document.createElement('article');
             myArticle.className = "townData";
             var myH2 = document.createElement('h2');
@@ -23,10 +23,8 @@ function showData(jsonObj) {
             var myPara3 = document.createElement('p');
             var myPara4 = document.createElement('p');
             myH2.textContent = town[i].name;
-            myPara1.textContent = 'Motto: ' + town[i].motto;
-            myPara2.textContent = 'Year Founded: ' + town[i].yearFounded;
-            myPara3.textContent = 'Population: ' + town[i].currentPopulation;
-            myPara4.textContent = 'Annual Rainfall: ' + town[i].averageRainfall + ' inches';
+            myPara1.textContent = 'hours: ' + town[i].hours;
+           
 
             myArticle.appendChild(myH2);
             myArticle.appendChild(myPara1);
