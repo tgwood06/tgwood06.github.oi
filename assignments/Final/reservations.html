@@ -1,4 +1,4 @@
-!doctype html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -20,6 +20,9 @@
 <body>
     <!-- HEADER HERE -->
   <header>
+        <div class="tlogo">
+                <img ig="logo" src="images/templelogo.jpg" alt="temple and Moroni logo">
+              </div>
     <h1>Temple Inn and Suites
     <!--site title-->
     <h2>Book your stay and enjoy the day!</h2>
@@ -39,9 +42,9 @@
   </nav>
     <!-- CONTENT HERE -->
     <main>
-        <h2>Town of Preston</h2>
+        <h1>Book your stay today!</h1>
 
-        <h1>Weather Play Time Storm Center</h1>
+        <h2>Four locations to choose from:</h2>
 
         <form method="get" action="thanks.html">
             <fieldset>
@@ -49,41 +52,37 @@
                 <label class="top"> Full Name* <br><input type="text" name="FullName" pattern="[a-zA-Z]*{5,}"
                     required></label>
                 <label class="top"> Phone* <br><input type="tel" name="phone" placeholder="1235555555" required></label>
-                <label class="top"> Email* <br><input type="email" name="email" placeholder="getweather@gmail.com"
+                <label class="top"> Email* <br><input type="email" name="email" placeholder="templeinnandsuites@gmail.com"
                     required></label>
-                <label class="top"> Zip Code* <br><input type="number" name="zip" required></label>
+                <label class="top"> Home State/Country* <br><input type="name" name="state" required></label>
                 
 
             </fieldset>
 
             <fieldset>
-                <legend>Storm Information</legend>
-                <label class="top">Storm Date <input type="date" name="completeDate"></label>
-                <label class="top"> Storm Type
+                <legend>Site Location</legend>
+                <label class="top">Start of Stay <input type="date" name="completeDate"></label>
+                <label class="top">End of Stay <input type="date" name="completeDate"></label>
+                <br><label class="top"> Room Type
                     <select name="subject">
                         <option value="">Please Select &#9662;</option>
-                        <option value="FlashFlood">Flash Flood</option>
-                        <option value="Hail">Hail</option>
-                        <option value="Hurricane">Hurricane</option>
-                        <option value="Thunderstorm">Thunderstorm</option>
-                        <option value="Tornado">Tornado</option>
+                        <option value="single queen bed">Single Queen Bed</option>
+                        <option value="double queen bed">Double Queen Bed</option>
+                        <option value="single king bed">Single King Bed</option>
+                        <option value="King bed in suite">King in Suite</option>
+                        <option value="Two bed room suite">Two Room Suite</option>
                     </select>
-                </label>
+                </label><br>
 
-                <label class="top"> Storm Severity Rating (1 to 10):</label>
-                <input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
-                    onchange="adjustRating(this.value)">
-                <span id="ratingvalue">5</span><br>
+                
 
-                <!-- <label class="top">Storm Severity <input type="number" name="severity" min="1" max="10"></label>-->
-                <!-- <input type="range"  do I need a range scale?-->
-
-                <label class="top">Storm Region</label>
+                <label class="top">Site Location</label>
                 <select name="region">
-                    <option value="">Select Region... &#9662;</option>
-                    <option value="Preston">Preston</option>
-                    <option value="Soda Springs">Soda Springs</option>
-                    <option value="Fish Haven">Fish Haven</option>
+                    <option value="">Select Site... &#9662;</option>
+                    <option value="San Diego, CA">San Diego, CA</option>
+                    <option value="San Antonio, TX">San Antonio, TX</option>
+                    <option value="Salt Lake,UT">Salt Lake, UT</option>
+                    <option value="Cedar City, Ut">Cedar City, UT</option>
                 </select>
             </fieldset>
 
@@ -91,9 +90,9 @@
 
 
             <textarea rows="5" cols="50" name="comment">
-            Enter additional storm info here...</textarea>
+        special accommodations and/or comments here...</textarea><br>
 
-            <input type="Submit" value="Enter Storm Data" class="submitBtn">
+            <input type="Submit" value="Submit Reservation" class="submitBtn">
 
 
         </form>

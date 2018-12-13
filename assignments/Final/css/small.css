@@ -7,19 +7,23 @@ body {
 }
 
 /*header rules here*/
-header {
+header, .header{
     background-color: #226666;
     padding: 1rem 2%;
+   
 }
-header h1 {
+header img .tlogo {
+    float:left;
+    padding:.8rem;
+}
+header h1, .header h1 {
     Color:white;
     margin:0;
 }
-Header h2 {
+Header h2, .header h2 {
     color: white;
     margin: 0;
 }
-
 
 /*navigation rules here*/
 nav { background-color: #151d1d;}
@@ -37,7 +41,7 @@ nav a:hover {background-color: #00c5c5;}
 nav ul.hide {display: none;}
 
 /*main rules */
-main{
+main {
     padding: 1rem 2%; /*1top bottom 2% on sides*/
     display: inline-block; /*for older browsers*/
     }
@@ -55,9 +59,149 @@ main figure {
         column-count: 2;
         column-rule: 1px solid #ddd;
         }
+
+        /*contact*/
+        main article {
+            border: solid 1px #151d1d;
+        }
+         .town-info {
+        border:solid 2px black;
+            display: inline-flex;
+            flex-direction: row;
+            background-color: #00c5c5;
+        
+        }
+        section h4{
+            padding: 2rem;
+
+        }
+        /*thank you*/
+        #contactinfo {
+            color: #ddd;
+            text-align: center;
+            padding: 1em;
+            border: 1px solid #151d1d;
+            background: 100%;
+            background-color: #138a8a;
+            
+        }
+        .main h1, h3 {
+            text-align: center;
+        }
+        /*form*/
+        /*-------------Form---------------*/
+form fieldset {
+    display: block;
+    text-align: left;
+    margin: 2rem 3%;
+    border: 2px solid #151d1d;
+    border-radius: 5px;
+    padding: .5rem 2%;
+
+}
+form legend {
+    display: block;
+    color:black;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+input.tel {
+    margin-left: 3.5%;
+
+}
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: black;
+    font-size: .8rem;
+
+}
+form label.top input, form label.top select 
+{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #151d1d;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #ddd;
+}
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: #fff0c7;
+
+}
+textarea{
+    display: block;
+    border-radius: .5rem;
+    border: 1px solid #00c5c5;
+    margin: 1rem;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #138a8a;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: #226666 6px;
+
+}
+form label.top input:required:valid {
+    border-left: #226666 solid 6px;
+}
+
+/*services*/
+.free {
+    border: solid #151d1d 2px;
+    padding: 1rem;
+    margin:2rem;
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+.special {
+    border: solid #151d1d 2px;
+    padding: 1rem;
+    margin: 2rem;
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+.reception {
+    display: flex;
+    justify-content: right;
+    border: solid #151d1d 2px;
+    padding: 1rem;
+    margin: 2rem;
+    width: 40%;
+    
+}
+.patrons {
+    border: solid #151d1d 2px;
+    padding: 1rem;
+    margin: 2rem;
+padding: 1rem;
+width: 50%;
+position:relative;
+}
+.queenroom{
+    
+    float:right;
+    width: 500px;
+}
 /*footer style*/
 
-footer {
+footer, .footer{
     text-align: center;
     padding: 1rem 2%;/*keeps the footer from sticking to the screen*/
      background-color: #226666; /*to match header*/

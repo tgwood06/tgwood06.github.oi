@@ -26,7 +26,7 @@ main h2 {
 header{
     background-color: #8C8C4A;
      display: flex;
-     flex-flow: row;
+     flex-flow: column;
      align-items: center;
     justify-content: center;
     padding: 10px;
