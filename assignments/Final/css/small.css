@@ -212,6 +212,53 @@ position:relative;
     grid-gap: 10px;
     
     }*/
+    .sandiego {
+        border: solid #151d1d 2px;
+        padding: 5px;
+        float: right;
+        padding: 2px;
+        margin: 3px;
+    }
+
+    .sanantonio {
+        border: solid #151d1d 2px;
+        padding: 5px;
+        float: right;
+        padding: 2px;
+        margin: 3px;
+    }
+.saltlake {
+    border: solid #151d1d 2px;
+    padding: 5px;
+    float: right;
+    padding: 2px;
+    margin: 3px;
+}
+.cedarcity {
+    border: solid #151d1d 2px;
+    padding: 5px;
+    float: right;
+    padding: 2px;
+    margin: 3px;
+}
+img{
+    float: right;
+}
+ 
+    /*home page*/
+    .book, .white{
+        border: solid #138a8a 3px;
+        display: inline-flex;
+        margin:5px;
+        padding:2px;
+    }
+    .kiss{
+        border: solid #226666 3px;
+        margin: 5px;
+        float:right;
+        padding:3px;
+    }
+   
 /*footer style*/
 
 footer, .footer{
