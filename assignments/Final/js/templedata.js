@@ -1,12 +1,12 @@
 var section = document.querySelector('section');
-var requestURL = '';
+var requestURL = 'https://github.com/tgwood06/tgwood06.github.oi/blob/master/assignments/temple.json/templejson.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 request.onload = function () {
     var townData = request.response;
-    showData(townData);
+    showData(templejson);
 }
 
 
@@ -16,7 +16,7 @@ function showData(jsonObj) {
     for (var i = 0; i < town.length; i++) {
         if (town[i].name == "San Diego Temple" || town[i].name == "San Antonio Temple" || town[i].name == "Salt Lake Temple"|| town[i].name == "Cedar City Temple" ) {
             var myArticle = document.createElement('article');
-            myArticle.className = "townData";
+            myArticle.className = "templejson";
             var myH2 = document.createElement('h2');
             var myPara1 = document.createElement('p');
             var myPara2 = document.createElement('p');
