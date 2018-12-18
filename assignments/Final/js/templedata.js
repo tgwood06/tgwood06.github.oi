@@ -1,5 +1,5 @@
 var section = document.querySelector('section');
-var requestURL = 'https://raw.githubusercontent.com/tgwood06/tgwood06.github.oi/master/assignments/json.json/towndata.json';
+var requestURL = 'https://raw.githubusercontent.com/tgwood06/tgwood06.github.oi/master/assignments/Final/json.json/towndata.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
