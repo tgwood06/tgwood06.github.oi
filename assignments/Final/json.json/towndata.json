@@ -16,43 +16,50 @@
     ]
     },
     {
-      "name": "San Antonio",
-      "motto": "Closed Sunday and Monday",
-      "yearFounded": 1864,
-      "currentPopulation": 501,
-      "averageRainfall": 14.20,
-      "events" : [
-        "April 1: How Big Was That Fish Day",
-        "May 15-30: Rush the Creek Days",
-        "July 24: Bear Lake Blunder Run",
-        "December 12: Light the Tree"
+        "name": "San Antonio",
+        "ClosureSchedule": [
+          "2018: Tuesday, December 25, 2018",
+          "2019",
+         " Tuesday January 1 2019",
+          "Monday March 18 2019  Monday April 1 2019",
+          "Saturday, April 6, 2019",
+          "Thursday July 4 2019",
+         "Monday September 30, 2019  Monday  November 11, 2019",
+          "Wednesday, November 27, 2019  Thursday November 28, 2019",
+          "Tuesday, December 24, 2019  Wednesday December 25, 2019",
+         " Tuesday, December 31, 2019"
       ]
     },
     {
       "name": "Salt Lake",
-      "motto": "Closed Sunday and Monday",
-      "yearFounded": 1805,
-      "currentPopulation": 33458,
-      "averageRainfall": 25,
-      "events" : [
-        "February 10-12: Greenbration",
-        "May 8 - 18: Greenville Founder Days",
-        "June 20: Verde and Valiant Day",
-        "November 15-16: Greensome Gathering"
+      "ClosureSchedule": [
+        "2018: Tuesday, December 25, 2018",
+        "2019",
+       " Tuesday January 1 2019",
+        "Monday March 18 2019  Monday April 1 2019",
+        "Saturday, April 6, 2019",
+        "Thursday July 4 2019",
+       "Monday September 30, 2019  Monday  November 11, 2019",
+        "Wednesday, November 27, 2019  Thursday November 28, 2019",
+        "Tuesday, December 24, 2019  Wednesday December 25, 2019",
+       " Tuesday, December 31, 2019"
       ]
     },
    
    
     {
       "name": "Cedar City",
-      "motto": "Closed Sunday and Monday",
-      "yearFounded": 1858,
-      "currentPopulation": 2985,
-      "averageRainfall": 15.75,
-      "events" : [
-        "February 29: Geyser Song Day",
-        "May 1-6: Days of May Celebration",
-        "October 15-16: Octoberfest"
+      "ClosureSchedule": [
+        "2018: Tuesday, December 25, 2018",
+        "2019",
+       " Tuesday January 1 2019",
+        "Monday March 18 2019  Monday April 1 2019",
+        "Saturday, April 6, 2019",
+        "Thursday July 4 2019",
+       "Monday September 30, 2019  Monday  November 11, 2019",
+        "Wednesday, November 27, 2019  Thursday November 28, 2019",
+        "Tuesday, December 24, 2019  Wednesday December 25, 2019",
+       " Tuesday, December 31, 2019"
       ]
     }
    
