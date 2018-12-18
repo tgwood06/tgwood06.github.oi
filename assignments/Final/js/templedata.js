@@ -24,9 +24,7 @@ function showData(jsonObj) {
             var myPara4 = document.createElement('p');
             myH2.textContent = town[i].name;
             myPara1.textContent = 'Closure Schedule: ' + town[i].ClosureSchedule;
-            myPara2.textContent = 'Year Founded: ' + town[i].yearFounded;
-            myPara3.textContent = 'Population: ' + town[i].currentPopulation;
-            myPara4.textContent = 'Annual Rainfall: ' + town[i].averageRainfall + ' inches';
+        
 
 
             myArticle.appendChild(myH2);
