@@ -242,7 +242,7 @@ position:relative;
     /*home page*/
     .book, .white {
         display: inline;
-        border: solid #226666 3px;
+       
         margin:5px;
         padding:2px;
     }
@@ -262,6 +262,7 @@ position:relative;
         padding: 3px;
         display: inline-flex;
     }
+    
    /**/
   /* .gallery_grid {
     display: grid;
@@ -276,7 +277,8 @@ position:relative;
 footer, .footer{
     text-align: center;
     padding: 1rem 2%;/*keeps the footer from sticking to the screen*/
-     background-color: black; /*to match header*/
+     background-color:#226666;
+      /*to match header*/
 }
 
 .clearfix:after{
