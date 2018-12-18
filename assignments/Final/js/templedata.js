@@ -14,7 +14,7 @@ function showData(jsonObj) {
   
     var town = jsonObj['towns'];
     for (var i = 0; i < town.length; i++) {
-        if (town[i].name == "San Diego" || town[i].name == "Springfield" || town[i].name == "Greenville") {
+        if (town[i].name == "Franklin" || town[i].name == "Salt Lake" || town[i].name == "San Antonio" || town[i].name == "Cedar City") {
             var myArticle = document.createElement('article');
             myArticle.className = "townData";
             var myH2 = document.createElement('h2');

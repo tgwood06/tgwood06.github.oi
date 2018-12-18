@@ -2,7 +2,7 @@
     "towns" : [
     {
       "name": "San Diego",
-      "motto": "Where you will grow!",
+      "motto": "Closed Sunday and Monday",
       "yearFounded": 1788,
       "currentPopulation": 30458,
       "averageRainfall": 21,
@@ -13,8 +13,8 @@
       ]
     },
     {
-      "name": "Fish Haven",
-      "motto": "This is Fish Heaven.",
+      "name": "Salt Lake",
+      "motto": "Closed Sunday and Monday",
       "yearFounded": 1864,
       "currentPopulation": 501,
       "averageRainfall": 14.20,
@@ -26,8 +26,8 @@
       ]
     },
     {
-      "name": "Greenville",
-      "motto": "Green is our way of life.",
+      "name": "San Antonio",
+      "motto": "Closed Sunday and Monday",
       "yearFounded": 1805,
       "currentPopulation": 33458,
       "averageRainfall": 25,
@@ -38,32 +38,11 @@
         "November 15-16: Greensome Gathering"
       ]
     },
+   
+   
     {
-      "name": "Placerton",
-      "motto": "Positive Placement in Placerton.",
-      "yearFounded": 1946,
-      "currentPopulation": 512,
-      "averageRainfall": 39,
-      "events" : [
-        "July 4: A Blaze of Glory",
-        "October 20: Fall through Fall"
-      ]
-    },
-    {
-      "name": "Preston",
-      "motto": "Home of Napoleon Dynamite",
-      "yearFounded": 1866,
-      "currentPopulation": 5204,
-      "averageRainfall": 16.65,
-      "events" : [
-        "March 29: Work Creek Revival",
-        "July 8-12: Napoleon Dynamite Festival",
-        "November 2-4: Freedom Days"
-      ]
-    },
-    {
-      "name": "Soda Springs",
-      "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
+      "name": "Cedar City",
+      "motto": "Closed Sunday and Monday",
       "yearFounded": 1858,
       "currentPopulation": 2985,
       "averageRainfall": 15.75,
@@ -72,18 +51,7 @@
         "May 1-6: Days of May Celebration",
         "October 15-16: Octoberfest"
       ]
-    },
-    {
-      "name": "Springfield",
-      "motto": "Where everyone is lifted.",
-      "yearFounded": 1826,
-      "currentPopulation": 17852,
-      "averageRainfall": 17,
-      "events" : [
-        "January 8: Spring into Winter",
-        "April 10-20: Celebration of Life",
-        "July 31-Aug 15: Dog Days of Summer Festival"
-      ]
     }
+   
    ]
   }
