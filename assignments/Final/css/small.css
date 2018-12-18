@@ -201,7 +201,7 @@ position:relative;
 }
 
 /*temple page*/
-.templegrid {
+.templegrid, .gallery_grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 300px 300px 300px;
@@ -262,13 +262,21 @@ position:relative;
         padding: 3px;
         display: inline-flex;
     }
-   
+   /**/
+  /* .gallery_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 20px;
+    
+    
+   }*/
 /*footer style*/
 
 footer, .footer{
     text-align: center;
     padding: 1rem 2%;/*keeps the footer from sticking to the screen*/
-     background-color: #226666; /*to match header*/
+     background-color: black; /*to match header*/
 }
 
 .clearfix:after{

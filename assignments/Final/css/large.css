@@ -19,7 +19,7 @@
         column-count: 4;
     }
     /*temple page*/
-.templegrid {
+.templegrid,.gallery_grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 300px 300px 300px;
