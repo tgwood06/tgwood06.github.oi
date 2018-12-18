@@ -4,45 +4,52 @@
       "name": "San Diego",
       "ClosureSchedule": [
         "2018: Tuesday, December 25, 2018",
-        "2019",
-       " Tuesday January 1 2019",
-        "Monday March 18 2019  Monday April 1 2019",
+        "2019:",
+       " Tuesday, January 1, 2019",
+        "Monday, March 18, 2019  Monday April 1, 2019",
         "Saturday, April 6, 2019",
-        "Thursday July 4 2019",
-       "Monday September 30, 2019  Monday  November 11, 2019",
-        "Wednesday, November 27, 2019  Thursday November 28, 2019",
-        "Tuesday, December 24, 2019  Wednesday December 25, 2019",
+        "Thursday, July 4, 2019",
+       "Monday, September 30, 2019  Monday,  November 11, 2019",
+        "Wednesday, November 27, 2019  Thursday, November 28, 2019",
+        "Tuesday, December 24, 2019  Wednesday, December 25, 2019",
        " Tuesday, December 31, 2019"
     ]
     },
     {
         "name": "San Antonio",
         "ClosureSchedule": [
-          "2018: Tuesday, December 25, 2018",
-          "2019",
-         " Tuesday January 1 2019",
-          "Monday March 18 2019  Monday April 1 2019",
+          "2018:",
+          "Tuesday, December 25, 2018",
+          "2019:",
+          "Tuesday, January 1, 2019",
           "Saturday, April 6, 2019",
-          "Thursday July 4 2019",
-         "Monday September 30, 2019  Monday  November 11, 2019",
-          "Wednesday, November 27, 2019  Thursday November 28, 2019",
-          "Tuesday, December 24, 2019  Wednesday December 25, 2019",
-         " Tuesday, December 31, 2019"
+          "Monday, April 8, 2019 - Monday, April 22, 2019",
+          "Thursday, July 4, 2019",
+          "Saturday, October 5, 2019",
+          "Monday, October 7, 2019 - Monday, October 21, 2019",
+          "Wednesday, November 27, 2019 (Limited Hours)",
+          "Thursday, November 28, 2019",
+          "Tuesday, December 24, 2019",
+          "Wednesday, December 25, 2019",
+          "Tuesday, December 31, 2019"
       ]
     },
     {
       "name": "Salt Lake",
       "ClosureSchedule": [
-        "2018: Tuesday, December 25, 2018",
+        "2018",
+        "Tuesday, December 25, 2018",
+        "Saturday, December 29, 2018 (Limited Hours)",
         "2019",
-       " Tuesday January 1 2019",
-        "Monday March 18 2019  Monday April 1 2019",
+       "Tuesday, January 1, 2019 - Monday, January 28, 2019",
         "Saturday, April 6, 2019",
-        "Thursday July 4 2019",
-       "Monday September 30, 2019  Monday  November 11, 2019",
-        "Wednesday, November 27, 2019  Thursday November 28, 2019",
-        "Tuesday, December 24, 2019  Wednesday December 25, 2019",
-       " Tuesday, December 31, 2019"
+        "Tuesday, July 2, 2019 - Monday, July 15, 2019",
+        "Wednesday, July 24, 2019",
+        "Saturday, October 5, 2019",
+        "Wednesday, November 27, 2019 (Limited Hours)",
+        "Thursday, November 28, 2019 - Friday, November 29, 2019",
+        "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
+        "Tuesday, December 31, 2019"
       ]
     },
    
@@ -50,16 +57,19 @@
     {
       "name": "Cedar City",
       "ClosureSchedule": [
-        "2018: Tuesday, December 25, 2018",
-        "2019",
-       " Tuesday January 1 2019",
-        "Monday March 18 2019  Monday April 1 2019",
+        "2018:",
+        "Tuesday, December 25, 2018",
+        "2019:",
+        "Tuesday, January 1, 2019",
         "Saturday, April 6, 2019",
-        "Thursday July 4 2019",
-       "Monday September 30, 2019  Monday  November 11, 2019",
-        "Wednesday, November 27, 2019  Thursday November 28, 2019",
-        "Tuesday, December 24, 2019  Wednesday December 25, 2019",
-       " Tuesday, December 31, 2019"
+        "Monday, April 15, 2019 - Monday, April 29, 2019",
+        "Thursday, July 4, 2019",
+        "Wednesday, July 24, 2019",
+        "Saturday, October 5, 2019",
+        "Monday, October 14, 2019 - Monday, October 28, 2019",
+       "Wednesday, November 27, 2019 - Thursday, November 28, 2019",
+        "Tuesday, December 24, 2019 - Wednesday, December 25, 2019",
+        "Tuesday, December 31, 2019"
       ]
     }
    
