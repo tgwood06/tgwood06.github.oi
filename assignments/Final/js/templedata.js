@@ -1,5 +1,5 @@
 var section = document.querySelector('section');
-var requestURL = 'json';
+var requestURL = 'https://raw.githubusercontent.com/tgwood06/tgwood06.github.oi/master/assignments/json.json/towndata.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -14,7 +14,7 @@ function showData(jsonObj) {
   
     var town = jsonObj['towns'];
     for (var i = 0; i < town.length; i++) {
-        if (town[i].name == "San Diego Temple" || town[i].name == "San Antonio Temple" || town[i].name == "Salt Lake Temple"|| town[i].name == "Cedar City Temple" ) {
+        if (town[i].name == "Franklin" || town[i].name == "Springfield" || town[i].name == "Greenville") {
             var myArticle = document.createElement('article');
             myArticle.className = "townData";
             var myH2 = document.createElement('h2');
