@@ -17,11 +17,19 @@
         padding-bottom: .5rem; /*to keep text away from caption*/
     }
     /*temple page*/
-.templegrid,.gallery_grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 300px 300px 300px;
+/*temple page*/
+.templegrid {
+    display: inline-grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
     grid-gap: 20px;
+}
+.townData {
+    display: inline-grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+
 }
     
     div.news {/*div news class, will make 2 columns and a line in the middle*/

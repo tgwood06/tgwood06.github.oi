@@ -19,11 +19,16 @@
         column-count: 4;
     }
     /*temple page*/
-.templegrid,.gallery_grid .towndata {
-    display: grid;
+.templegrid {
+    display: inline-grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 300px 300px 300px ;
+    grid-template-rows: auto auto auto auto;
     grid-gap: 20px;
 }
-    
+    .gallery_grid {
+        display:inline-flex;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto auto auto auto ;
+        grid-gap: 20px; 
+    }
     }/**end of media query*/
