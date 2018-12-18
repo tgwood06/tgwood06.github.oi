@@ -290,6 +290,7 @@ footer, .footer{
     text-align: center;
     padding: 1rem 2%;/*keeps the footer from sticking to the screen*/
      background-color:#226666;
+     color: black;
       /*to match header*/
 }
 
