@@ -18,5 +18,12 @@
     div.news {
         column-count: 4;
     }
+    /*temple page*/
+.templegrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 20px;
+}
     
     }/**end of media query*/

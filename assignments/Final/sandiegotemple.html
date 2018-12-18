@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="Temple Latter-day Saint" content="Temple Inn and Suites">
+  <meta name="author" content="John Doe">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <title>Temple: San Diego</title>
+  <!--keeps phones from using wrong size-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- STYLE SHEETS -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/small.css" rel="stylesheet">
+  <link href="css/medium.css" rel="stylesheet">
+  <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="tlogo">
+      <img id="logo" src="images/templelogo.jpg" alt="temple and Moroni logo">
+    </div>
+    <h1>Temple Inn and Suites</h1>
+      <!--site title-->
+      <h2>Book your stay and enjoy the day!</h2>
+      <!--Site Slogan-->
+  </header>
+
+  <nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;</button>
+    <ul id="primaryNav" class="hide">
+      <li><a href="home.html">Home</a></li>
+      <li class="active"><a href="templespage.html">Temples</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="reservations.html">Reservation</a></li>
+      <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+  </nav>
+
+  <main>
+    <div class="sandiego">
+      <figure>
+        <img src="images/San-Diego-California-Temple450px.jpg" alt="San Diego Temple">
+        <figcaption>San Diego Temple</figcaption>
+      </figure>
+      <h5>7474 Charmant Dr<br>
+        San Diego CA 92122-5000<br>
+        United States<br>
+        (1) 858-622-0991<br>
+      sandiegotemple@att.net</h5>
+        <p>Clothing rental available<br>
+          Cafeteria available<br>
+          No patron housing available<br>
+          Distribution center nearby</p>
+      <p class="sdinfo">The San Diego California Temple is the 47th constructed and 45th operating temple of The Church of Jesus
+        Christ
+        of Latter-day Saints (LDS Church).[1] Located near the La Jolla community of San Diego, it was built with two
+        main spires, but unique to this temple are four smaller spires at the base of each main spire. The East spire
+        is
+        topped with the familiar Angel Moroni statue which adorns most LDS temples.
+
+        The San Diego Temple was announced on April 7, 1984, and dedicated on April 25, 1993 by Gordon B. Hinckley. The
+        temple was built on a 7.2-acre (2.9 ha) plot, has 4 ordinance rooms and 8 sealing rooms, and has a total floor
+        area of 72,000 square feet (6,700 m2).
+
+        Although there is no visitors' center, the church maintains the Mormon Battalion Historic Site in Old Town, San
+        Diego. </p>
+
+    </div>
+
+   
+
+   
+    
+    <div class="weatherdetails">
+      <h3>Weather Summary</h3>
+  <p class="label">Currently:</p>
+  <div><img src="images/placeholder.png" alt="current weather"
+          id="weather_icon"></div>
+  <p class="label">Temperature:</p>
+  <p class="value" id="currentTemp"></p>
+  <p class="label">Humidity:</p>
+  <p class="value" id="Humidity"></p>
+  <p class="label">Precipitation:</p>
+  <p class="value">0 inches</p>
+  <p class="label">Wind Speed:</p>
+  <p class="value" id="currentWind"></p>
+  <p class="label">Wind Chill</p>
+  <!--wind chill results?-->
+  <p class="value" id="windchill"></p>
+</div>
+  </main>
+
+  <!-- FOOTER HERE -->
+  <footer>
+    <p><small>&copy; 2018 CIT230 | Temple Inn and Suites | Tricia Greenwood</small> </p>
+    <span id="date"></span>
+  </footer>
+
+  <script src="js/date.js"></script>
+  <script src="js/hamburgernav.js"></script>
+  <script src="js/templedata.js"></script>
+  <script src="js/sandiegoweather.js"></script>
+
+</body>
+
+</html>

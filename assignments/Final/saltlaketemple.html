@@ -6,7 +6,7 @@
   <meta name="Temple Latter-day Saint" content="Temple Inn and Suites">
   <meta name="author" content="John Doe">
   <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-  <title>Temple: Home</title>
+  <title>Temple: Salt Lake</title>
   <!--keeps phones from using wrong size-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -32,7 +32,7 @@
     <button onclick="toggleMenu()">&#9776;</button>
     <ul id="primaryNav" class="hide">
       <li><a href="home.html">Home</a></li>
-      <li class="active"><a href="templespage.html">Temples</a></li>
+      <li><a href="templespage.html">Temples</a></li>
       <li><a href="services.html">Services</a></li>
       <li><a href="reservations.html">Reservation</a></li>
       <li><a href="contact.html">Contact</a></li>
@@ -40,40 +40,45 @@
     </ul>
   </nav>
 
-  <main class="templegrid">
-    <div class="sandiego">
-      <figure>
-        <img src="images/San-Diego-California-Temple450px.jpg" alt="San Diego Temple">
-        <figcaption>San Diego Temple</figcaption>
-      </figure>
-      <p><a href="sandiegotemple.html">Click to visit the San Diego Temple Page</a></p>
-
-    </div>
-
-    <div class="sanantonio">
-      <figure>
-        <img src="images/San-Antonio-Texas-Temple1.jpg" alt="San Antonio Temple">
-        <figcaption>San Antonio Temple</figcaption>
-      </figure>
-      <p><a href="sanantoniotemple.html">Click to visit the San Antonio Temple Page</a></p>
-    </div>
+  <main>
+    
+   
 
     <div class="saltlake">
       <figure>
         <img src="images/800px-Salt_Lake_Temple,_Utah_-_Sept_2004-2.jpg" alt="Salt Lake Temple">
         <figcaption>Salt Lake Temple</figcaption>
       </figure>
-      <p><a href="saltlaketemple.html">Click to visit the Salt Lake Temple Page</a></p>
+      <h5>50 W North Temple St<br>
+        Salt Lake City UT 84150-9709<br>
+        United States<br>
+        (1) 801-240-2640<br>
+      saltlaketemple@att.net</h5>
+      <p>Clothing rental available<br>
+        Cafeteria available<br>
+        No patron housing available<br>
+        Distribution center nearby</p>
+      <p>The Salt Lake Temple is a temple of The Church of Jesus Christ of Latter-day Saints (LDS Church) located on Temple Square in Salt Lake City, Utah, United States. At 253,015 square feet (23,505.9 m2), it is the largest LDS temple by floor area. Dedicated in 1893, it is the sixth temple completed by the church, requiring 40 years to complete, and the fourth temple built since the Mormon exodus from Nauvoo, Illinois, in 1846.[1]</p>
     </div>
 
-    <div class="cedarcity">
-      <figure>
-        <img src="images/580the-dream-has-now-been-realized-open-house-begins-for-cedar-_11.jpg" alt="San Antonio Temple">
-        <figcaption>Cedar City Temple</figcaption>
-      </figure>
-      <p><a href="cedarcitytemple.html">Click to visit the Cedar City Temple Page</a></p>
-    </div>
    
+    <div class="weatherdetails">
+      <h3>Weather Summary</h3>
+  <p class="label">Currently:</p>
+  <div><img src="images/placeholder.png" alt="current weather"
+          id="weather_icon"></div>
+  <p class="label">Temperature:</p>
+  <p class="value" id="currentTemp"></p>
+  <p class="label">Humidity:</p>
+  <p class="value" id="Humidity"></p>
+  <p class="label">Precipitation:</p>
+  <p class="value">0 inches</p>
+  <p class="label">Wind Speed:</p>
+  <p class="value" id="currentWind"></p>
+  <p class="label">Wind Chill</p>
+  <!--wind chill results?-->
+  <p class="value" id="windchill"></p>
+</div>
   </main>
 
   <!-- FOOTER HERE -->
@@ -85,6 +90,8 @@
   <script src="js/date.js"></script>
   <script src="js/hamburgernav.js"></script>
   <script src="js/templedata.js"></script>
+  <script src="js/saltlake.js"></script>
+ 
 
 </body>
 

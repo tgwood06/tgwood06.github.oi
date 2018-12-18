@@ -9,12 +9,20 @@
     
     nav ul li {
        float: left;
+    }
     main figure {
         float: right; /*to get text to wrap around it*/
         width: 61%; /*50% total image change to 48 when margin 2% is added*/
         margin-left: 2%;
         padding-bottom: .5rem; /*to keep text away from caption*/
     }
+    /*temple page*/
+.templegrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 20px;
+}
     
     div.news {/*div news class, will make 2 columns and a line in the middle*/
     column-count: 3;
