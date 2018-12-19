@@ -85,9 +85,9 @@ main figure {
             background-color: #138a8a;
             
         }
-        .main h1, h3 {
+       /* .main h1, h3 {
             text-align: center;
-        }
+        }*/
         /*form*/
         /*-------------Form---------------*/
 form fieldset {
